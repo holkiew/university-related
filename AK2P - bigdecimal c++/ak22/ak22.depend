@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1459180299 source:c:\users\dzoni\desktop\ak22\main.cpp
+	<iostream>
+	<math.h>
+	<bitset>
+	<string>
+	<cstdlib>
+	<sstream>
+	<vector>
+	<climits>
+
+1465288744 source:c:\users\dzoni\gitprojects\ak2p\ak22\main.cpp
+	<iostream>
+	<math.h>
+	<bitset>
+	<string>
+	<cstdlib>
+	<sstream>
+	<vector>
+	<climits>
+	<cstring>
+	<stdio.h>
+

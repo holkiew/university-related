@@ -1,0 +1,4 @@
+tutaj na stocku club. Roznica na random close 3/4 i 1/4 - podobne zachowanie wynikajace z podobnych wykresow????
+
+ fromdate=datetime.datetime(2012, 1, 1),
+                                                todate=datetime.datetime(2016, 8, 9),

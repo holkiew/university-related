@@ -1,0 +1,135 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area6#page20" name="EventProposal detail" gr:x="935" gr:y="875">
+  <ContentUnits>
+    <DataUnit id="sv1#area6#page20#dau15" name="EventProposal details" gr:showAllParts="true" gr:x="0" gr:y="0" entity="ent3" displayAttributes="ent3#att8">
+      <Selector id="sv1#area6#page20#dau15#su24" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#page20#dau15#su24#kcond24" name="KeyCondition15" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv1#area6#page20#dau15#ln9" name="Flow9" to="sv1#area6#page20#enu1" automaticCoupling="true" type="transport" validate="true" gr:bendpoints="-75,3,-99,-103;-76,107,-100,1"/>
+      <Link id="sv1#area6#page20#dau15#ln10" name="Flow10" to="sv1#area6#page20#miu1" automaticCoupling="true" type="transport" validate="true" gr:bendpoints="-75,3,-129,-223;-80,227,-134,1"/>
+      <Link id="sv1#area6#page20#dau15#ln11" name="Flow11" to="sv1#area6#page20#miu2" automaticCoupling="true" type="transport" validate="true" gr:bendpoints="-76,-2,-126,-342;-79,340,-129,0"/>
+    </DataUnit>
+    <PowerIndexUnit id="sv1#area6#page20#pwu20" name="EventProposal comments" gr:x="330" gr:y="0" sortable="true" checkable="false" useCountQuery="false" entity="ent5"/>
+    <ModuleInstanceUnit id="sv1#area6#page20#miu1" name="Approve EventProposal" linkOrder="sv1#area6#page20#miu1#ln61" gr:x="10" gr:y="245" action="true">
+      <Link id="sv1#area6#page20#miu1#ln60" name="Flow33" to="sv1#area6#mfu3" type="transport" automaticCoupling="true" validate="true"/>
+      <Link id="sv1#area6#page20#miu1#ln61" name="Flow36" to="sv1#area6#page21" type="normal" automaticCoupling="true" validate="true" gr:bendpoints="182,-56,-288,-56;341,-61,-129,-61"/>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit id="sv1#area6#page20#miu2" name="Delete EventProposal" gr:x="10" gr:y="360" action="true" linkOrder="sv1#area6#page20#miu2#ln70">
+      <Link id="sv1#area6#page20#miu2#ln70" name="Flow70" to="sv1#area6#page25" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="196,-64,-274,-64;363,-59,-107,-59"/>
+      <Link id="sv1#area6#page20#miu2#ln4" name="Flow4" to="sv1#area6#dlu1" automaticCoupling="true" type="transport" validate="true"/>
+    </ModuleInstanceUnit>
+    <EntryUnit gr:x="10" gr:y="120" id="sv1#area6#page20#enu1" name="Create EventProposalReview" entity="ent4" linkOrder="sv1#area6#page20#enu1#ln8">
+      <Link id="sv1#area6#page20#enu1#ln8" name="Flow8" to="sv1#area6#cru1" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="127,15,-128,15"/>
+    </EntryUnit>
+    <DataUnit gr:x="150" gr:y="0" id="sv1#area6#page20#dau1" name="EventProposalReview Detail">
+      <Selector id="sv1#area6#page20#dau1#su2" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#page20#dau1#su2#kcond2" name="KeyCondition2" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#page20#dau15">
+          <layout:Attribute attribute="ent3#att8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#page20#pwu20"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#page20#miu1">
+          <layout:Link link="sv1#area6#page20#miu1#ln61"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#page20#miu2">
+          <layout:Link link="sv1#area6#page20#miu2#ln70"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#page20#enu1">
+          <layout:Link link="sv1#area6#page20#enu1#ln8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#page20#dau1"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

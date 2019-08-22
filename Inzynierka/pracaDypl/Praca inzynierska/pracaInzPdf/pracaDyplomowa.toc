@@ -1,0 +1,131 @@
+\contentsline {section}{\numberline {1}Wst\IeC {\k e}p}{5}{section.1}
+\contentsline {subsection}{\numberline {1.1}Wprowadzenie}{5}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Cel pracy}{5}{subsection.1.2}
+\contentsline {section}{\numberline {2}Analiza rynku}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Podobne rozwi\IeC {\k a}zanie - uShip}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Podobne rozwi\IeC {\k a}zanie - Oferteo}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Podobne rozwi\IeC {\k a}zanie - Allegro}{9}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Projektowana aplikacja}{9}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Podsumowanie analizy}{9}{subsection.2.5}
+\contentsline {paragraph}{Oznaczenia}{9}{section*.6}
+\contentsline {section}{\numberline {3}Om\IeC {\'o}wienie koncepcji systemu}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Og\IeC {\'o}lny opis projektu}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Docelowi u\IeC {\.z}ytkownicy}{10}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Cele funkcjonowania systemu}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Opis funkcjonalno\IeC {\'s}ci}{10}{subsection.3.4}
+\contentsline {paragraph}{Jak korzysta\IeC {\'c} z programu}{10}{section*.7}
+\contentsline {subsubsection}{\numberline {3.4.1}Wymagania funkcjonalne}{10}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Wymagania niefunkcjonalne}{11}{subsubsection.3.4.2}
+\contentsline {section}{\numberline {4}Analiza dost\IeC {\k e}pnych narz\IeC {\k e}dzi}{12}{section.4}
+\contentsline {subsection}{\numberline {4.1}Baza danych}{12}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Serwer}{12}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Aplikacja kliencka}{12}{subsection.4.3}
+\contentsline {paragraph}{PHP}{12}{section*.8}
+\contentsline {paragraph}{AngularJS}{12}{section*.9}
+\contentsline {paragraph}{Angular2}{12}{section*.10}
+\contentsline {subsection}{\numberline {4.4}Podsumowanie wyboru technologii}{13}{subsection.4.4}
+\contentsline {paragraph}{Wybrane technologie}{13}{section*.11}
+\contentsline {section}{\numberline {5}Projekt systemu}{14}{section.5}
+\contentsline {subsection}{\numberline {5.1}Architektura systemu}{14}{subsection.5.1}
+\contentsline {paragraph}{Optymalizacja i skalowalno\IeC {\'s}\IeC {\'c} aplikacji}{14}{section*.13}
+\contentsline {subsection}{\numberline {5.2}Diagramy klas}{15}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Diagramy zwi\IeC {\k a}zk\IeC {\'o}w encji}{16}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Diagramy przypadk\IeC {\'o}w u\IeC {\.z}ycia}{17}{subsection.5.4}
+\contentsline {paragraph}{Szczeg\IeC {\'o}\IeC {\l }owe definicje przypadk\IeC {\'o}w u\IeC {\.z}ycia dla diagramu u\IeC {\.z}ytkownika}{17}{section*.17}
+\contentsline {paragraph}{Szczeg\IeC {\'o}\IeC {\l }owe definicje przypadk\IeC {\'o}w u\IeC {\.z}ycia dla diagramu moderatora}{20}{section*.19}
+\contentsline {subsection}{\numberline {5.5}Diagramy aktywno\IeC {\'s}ci}{22}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Diagramy sekwencji}{24}{subsection.5.6}
+\contentsline {paragraph}{Oznaczenia tzw. \textit {linii \IeC {\.z}ycia}}{24}{section*.24}
+\contentsline {paragraph}{Oznaczenia tzw. \textit {linii \IeC {\.z}ycia}}{25}{section*.26}
+\contentsline {paragraph}{Oznaczenia tzw. \textit {linii \IeC {\.z}ycia}}{26}{section*.28}
+\contentsline {subsection}{\numberline {5.7}Opis mechanizm\IeC {\'o}w bezpiecze\IeC {\'n}stwa}{26}{subsection.5.7}
+\contentsline {paragraph}{Mechanizmy zabezpieczaj\IeC {\k a}ce has\IeC {\l }a}{26}{section*.29}
+\contentsline {paragraph}{Mechanizmy autoryzacyjne}{26}{section*.30}
+\contentsline {paragraph}{Mechanizmy przetwarzaj\IeC {\k a}ce zapytania po stronie serwera}{27}{section*.31}
+\contentsline {subsection}{\numberline {5.8}Opis \textit {endpoint\IeC {\'o}w}}{28}{subsection.5.8}
+\contentsline {subsubsection}{\numberline {5.8.1}\textit {Backend}}{28}{subsubsection.5.8.1}
+\contentsline {paragraph}{\textit {Endpointy}}{28}{section*.32}
+\contentsline {subsubsection}{\numberline {5.8.2}\textit {Frontend}}{29}{subsubsection.5.8.2}
+\contentsline {paragraph}{Obja\IeC {\'s}nienia}{30}{section*.34}
+\contentsline {subsection}{\numberline {5.9}Szkice i funkcjonalno\IeC {\'s}\IeC {\'c} aplikacji klienckiej}{31}{subsection.5.9}
+\contentsline {subsubsection}{\numberline {5.9.1}Logowanie}{31}{subsubsection.5.9.1}
+\contentsline {paragraph}{Funkcjonalno\IeC {\'s}\IeC {\'c}}{31}{section*.36}
+\contentsline {paragraph}{Walidacja}{31}{section*.37}
+\contentsline {subsubsection}{\numberline {5.9.2}Wyszukiwanie aukcji}{32}{subsubsection.5.9.2}
+\contentsline {paragraph}{Funkcjonalno\IeC {\'s}\IeC {\'c}}{32}{section*.39}
+\contentsline {paragraph}{Walidacja}{32}{section*.40}
+\contentsline {subsubsection}{\numberline {5.9.3}Rejestracja nowego u\IeC {\.z}ytkownika}{33}{subsubsection.5.9.3}
+\contentsline {paragraph}{Funkcjonalno\IeC {\'s}\IeC {\'c}}{33}{section*.42}
+\contentsline {paragraph}{Walidacja}{33}{section*.43}
+\contentsline {subsubsection}{\numberline {5.9.4}Panel u\IeC {\.z}ytkownika}{34}{subsubsection.5.9.4}
+\contentsline {paragraph}{Funkcjonalno\IeC {\'s}\IeC {\'c}}{34}{section*.45}
+\contentsline {paragraph}{Walidacja}{34}{section*.46}
+\contentsline {subsubsection}{\numberline {5.9.5}Aukcja}{35}{subsubsection.5.9.5}
+\contentsline {paragraph}{Funkcjonalno\IeC {\'s}\IeC {\'c}}{35}{section*.48}
+\contentsline {paragraph}{Walidacja}{35}{section*.49}
+\contentsline {subsubsection}{\numberline {5.9.6}Stw\IeC {\'o}rz now\IeC {\k a} aukcj\IeC {\k e}}{36}{subsubsection.5.9.6}
+\contentsline {paragraph}{Funkcjonalno\IeC {\'s}\IeC {\'c}}{36}{section*.51}
+\contentsline {paragraph}{Walidacja}{36}{section*.52}
+\contentsline {subsubsection}{\numberline {5.9.7}Aktywacja konta}{37}{subsubsection.5.9.7}
+\contentsline {paragraph}{Funkcjonalno\IeC {\'s}\IeC {\'c}}{37}{section*.54}
+\contentsline {paragraph}{Walidacja}{37}{section*.55}
+\contentsline {subsubsection}{\numberline {5.9.8}Wsp\IeC {\'o}lne elementy}{38}{subsubsection.5.9.8}
+\contentsline {paragraph}{Funkcjonalno\IeC {\'s}\IeC {\'c}}{38}{section*.57}
+\contentsline {paragraph}{Obja\IeC {\'s}nienia}{38}{section*.58}
+\contentsline {section}{\numberline {6}Implementacja systemu}{39}{section.6}
+\contentsline {subsection}{\numberline {6.1}Implementacja bazy danych}{39}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Implementacja serwera}{44}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Struktura projektu}{44}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Konfiguracja projektu - Maven}{45}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Encje}{47}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Obiekty dost\IeC {\k e}pu danych}{49}{subsubsection.6.2.4}
+\contentsline {subsubsection}{\numberline {6.2.5}Serwisy danych}{51}{subsubsection.6.2.5}
+\contentsline {subsubsection}{\numberline {6.2.6}Serwis mailowy}{52}{subsubsection.6.2.6}
+\contentsline {subsubsection}{\numberline {6.2.7}Udost\IeC {\k e}pnianie danych za pomoc\IeC {\k a} kontrolera}{54}{subsubsection.6.2.7}
+\contentsline {subsubsection}{\numberline {6.2.8}Przyk\IeC {\l }adowe obiekty transferu danych - DTO}{55}{subsubsection.6.2.8}
+\contentsline {subsubsection}{\numberline {6.2.9}Dane inicjuj\IeC {\k a}ce}{56}{subsubsection.6.2.9}
+\contentsline {subsubsection}{\numberline {6.2.10}Przyk\IeC {\l }ad uruchomienia serwera}{58}{subsubsection.6.2.10}
+\contentsline {subsection}{\numberline {6.3}Implementacja aplikacji klienckiej}{59}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Struktura projektu}{59}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Integracja z serwerem}{60}{subsubsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.3}G\IeC {\l }\IeC {\'o}wny modu\IeC {\l } aplikacji}{62}{subsubsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.4}Logowanie}{63}{subsubsection.6.3.4}
+\contentsline {subsubsection}{\numberline {6.3.5}Widok dost\IeC {\k e}pnych aukcji}{67}{subsubsection.6.3.5}
+\contentsline {subsubsection}{\numberline {6.3.6}Implementacja wieloj\IeC {\k e}zyczno\IeC {\'s}ci}{68}{subsubsection.6.3.6}
+\contentsline {subsubsection}{\numberline {6.3.7}Uruchomienie aplikacji klienckiej}{72}{subsubsection.6.3.7}
+\contentsline {section}{\numberline {7}U\IeC {\.z}ytkowanie aplikacji}{73}{section.7}
+\contentsline {subsubsection}{\numberline {7.0.1}Logowanie i wylogowywanie}{73}{subsubsection.7.0.1}
+\contentsline {subsubsection}{\numberline {7.0.2}Stworzenie nowej aukcji}{75}{subsubsection.7.0.2}
+\contentsline {subsubsection}{\numberline {7.0.3}Stworzenie nowego u\IeC {\.z}ytkownika}{76}{subsubsection.7.0.3}
+\contentsline {subsubsection}{\numberline {7.0.4}Wy\IeC {\'s}wietlenie aukcji}{77}{subsubsection.7.0.4}
+\contentsline {section}{\numberline {8}Wdro\IeC {\.z}enie i ocena jako\IeC {\'s}ci}{78}{section.8}
+\contentsline {subsection}{\numberline {8.1}Podstawowe wymagania instalacji systemu}{78}{subsection.8.1}
+\contentsline {subsubsection}{\numberline {8.1.1}Instalacja Javy}{78}{subsubsection.8.1.1}
+\contentsline {paragraph}{Instalacja dla systemu Windows}{78}{section*.99}
+\contentsline {paragraph}{Instalacja dla Linuxa Ubuntu}{78}{section*.100}
+\contentsline {subsubsection}{\numberline {8.1.2}Instalacja Maven'a}{78}{subsubsection.8.1.2}
+\contentsline {subsubsection}{\numberline {8.1.3}Instalacja nodeJS}{78}{subsubsection.8.1.3}
+\contentsline {paragraph}{Instalacja dla systemu Windows}{78}{section*.101}
+\contentsline {paragraph}{Instalacja dla Linuxa Ubuntu}{78}{section*.102}
+\contentsline {subsubsection}{\numberline {8.1.4}Instalacja i konfiguracja bazy danych}{78}{subsubsection.8.1.4}
+\contentsline {paragraph}{Instalacja dla systemu Windows}{78}{section*.103}
+\contentsline {paragraph}{Za ka\IeC {\.z}dym uruchomieniem serwera nale\IeC {\.z}y uruchomi\IeC {\'c} serwis bazodanowy:}{78}{section*.104}
+\contentsline {paragraph}{Instalacja dla Linuxa Ubuntu}{78}{section*.105}
+\contentsline {paragraph}{Aby uruchomi\IeC {\'c} serwis bazodanowy nale\IeC {\.z}y:}{78}{section*.106}
+\contentsline {paragraph}{(Linux i Windows) Konfiguracja bazy danych}{79}{section*.107}
+\contentsline {subsection}{\numberline {8.2}Instalacja i budowa aplikacji}{79}{subsection.8.2}
+\contentsline {subparagraph}{R\IeC {\k e}czne \IeC {\'s}ci\IeC {\k a}gni\IeC {\k e}cie}{79}{section*.108}
+\contentsline {subparagraph}{\IeC {\'S}ci\IeC {\k a}gni\IeC {\k e}cie za pomoc\IeC {\k a} systemu \textit {Git}}{79}{section*.109}
+\contentsline {subsection}{\numberline {8.3}Uruchomienie aplikacji}{80}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Testy aplikacji}{80}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}Istniej\IeC {\k a}ce testy}{80}{subsubsection.8.4.1}
+\contentsline {subsubsection}{\numberline {8.4.2}Testy kt\IeC {\'o}re powinny zosta\IeC {\'c} zaimplementowane}{80}{subsubsection.8.4.2}
+\contentsline {subsection}{\numberline {8.5}Weryfikacja}{81}{subsection.8.5}
+\contentsline {subsection}{\numberline {8.6}Walidacja}{81}{subsection.8.6}
+\contentsline {section}{\numberline {9}Podsumowanie}{82}{section.9}
+\contentsline {subsection}{\numberline {9.1}Technologie}{82}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Realizacja pracy}{82}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Wnioski}{82}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Dalsze mo\IeC {\.z}liwo\IeC {\'s}ci rozwoju systemu}{83}{subsection.9.4}
+\contentsline {section}{Literatura}{84}{Item.243}
+\contentsline {section}{\numberline {A}Opis za\IeC {\l }\IeC {\k a}czonej p\IeC {\l }yty CD/DVD}{85}{appendix.A}

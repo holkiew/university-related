@@ -1,0 +1,21 @@
+Value : 45335.99 | OrderedDict([('smaS_period', 25), ('smaL_period', 50), ('rsi_period', 21), ('rsi_top', 85), ('rsi_bot', 20), ('printlog', False), ('printstop', False), ('value', 45335.98577939568)])
+Value : 32620.40 | OrderedDict([('smaS_period', 50), ('smaL_period', 100), ('rsi_period', 40), ('rsi_top', 85), ('rsi_bot', 30), ('printlog', False), ('printstop', False), ('value', 32620.398058252427)])
+Value : 20363.60 | OrderedDict([('smaS_period', 50), ('smaL_period', 100), ('rsi_period', 21), ('rsi_top', 85), ('rsi_bot', 30), ('printlog', False), ('printstop', False), ('value', 20363.597811256946)])
+Value : 17965.46 | OrderedDict([('smaS_period', 50), ('smaL_period', 100), ('rsi_period', 21), ('rsi_top', 85), ('rsi_bot', 15), ('printlog', False), ('printstop', False), ('value', 17965.4631622988)])
+Value : 14830.08 | OrderedDict([('smaS_period', 25), ('smaL_period', 200), ('rsi_period', 21), ('rsi_top', 85), ('rsi_bot', 15), ('printlog', False), ('printstop', False), ('value', 14830.082109262237)])
+Value : 14566.05 | OrderedDict([('smaS_period', 25), ('smaL_period', 200), ('rsi_period', 21), ('rsi_top', 80), ('rsi_bot', 15), ('printlog', False), ('printstop', False), ('value', 14566.051563732337)])
+Value : 11080.52 | OrderedDict([('smaS_period', 100), ('smaL_period', 200), ('rsi_period', 21), ('rsi_top', 85), ('rsi_bot', 30), ('printlog', False), ('printstop', False), ('value', 11080.519157716071)])
+Value : 7632.70 | OrderedDict([('smaS_period', 125), ('smaL_period', 100), ('rsi_period', 14), ('rsi_top', 70), ('rsi_bot', 20), ('printlog', False), ('printstop', False), ('value', 7632.701076033365)])
+Value : 6204.72 | OrderedDict([('smaS_period', 125), ('smaL_period', 200), ('rsi_period', 14), ('rsi_top', 80), ('rsi_bot', 30), ('printlog', False), ('printstop', False), ('value', 6204.715472610737)])
+Value : 4697.28 | OrderedDict([('smaS_period', 125), ('smaL_period', 200), ('rsi_period', 40), ('rsi_top', 80), ('rsi_bot', 20), ('printlog', False), ('printstop', False), ('value', 4697.27942925089)])
+
+
+        [25,50,21,85,20,0,0,0],
+        [50,100,40,85,30,0,0,0],
+        [50,100,21,85,30,0,0,0],
+        [50,100,21,85,15,0,0,0],
+        [25,200,21,80,15,0,0,0],
+        [25,200,21,85,30,0,0,0],
+        [100,200,21,85,30,0,0,0],
+        [125,200,14,80,30,0,0,0],
+        [125,200,40,80,20,0,0,0]

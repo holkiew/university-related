@@ -1,0 +1,23 @@
+#!/bin/sh
+
+if [ "$#" -ne 1 ]
+then
+	echo "bledna ilosc argumentow"
+	exit 1
+fi
+
+if [ ! -d $1 ]
+then
+	echo "$1 nie jest katalogiem lub nie istnieje"
+	exit 2
+fi
+
+cd $1
+
+for plik in `ls -a`
+do
+	if [ ! -x $plik ] 
+	then
+		rm "$plik"
+	fi
+done

@@ -1,0 +1,75 @@
+<RestClientRequest>
+  <option name="biscuits">
+    <list />
+  </option>
+  <option name="httpMethod" value="POST" />
+  <option name="urlBase" value="http://localhost:8080" />
+  <option name="urlPath" value="/createAuction" />
+  <option name="headers">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="Accept" />
+        <option name="value" value="*/*" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Cache-Control" />
+        <option name="value" value="no-cache" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="token"/>
+        <option name="value" value="RefreshToken1"/>
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parameters">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="title" />
+        <option name="value" value="title of auction"/>
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="endOfAuction"/>
+        <option name="value" value="2016-11-21T23:01:34.491Z" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="loadDate"/>
+        <option name="value" value="2016-11-21T23:01:34.491Z" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="deliveryDate"/>
+        <option name="value" value="2016-11-21T23:01:34.491Z"/>
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="locationTo"/>
+        <option name="value" value="Mazowiecka 32, Warszawa"/>
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="locationFrom"/>
+        <option name="value" value="Krasnali 12/3, Poznań"/>
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="length"/>
+        <option name="value" value="11"/>
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="width"/>
+        <option name="value" value="12"/>
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="height"/>
+        <option name="value" value="13"/>
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="description"/>
+        <option name="value"
+                value="Description DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription"/>
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parametersEnabled" value="true" />
+  <option name="haveTextToSend" value="false" />
+  <option name="haveFileToSend" value="false" />
+  <option name="isFileUpload" value="false" />
+  <option name="textToSend" value="" />
+  <option name="filesToSend" value="" />
+</RestClientRequest>

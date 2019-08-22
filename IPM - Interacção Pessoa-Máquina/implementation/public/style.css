@@ -1,0 +1,385 @@
+/* general */
+body, html, #root {
+    font-family: Roboto;
+    height: 100%;
+    width: 100%;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.btn.btn-success {
+    background: #ffd214;
+    color: black;
+}
+
+.btn.btn-success:hover {
+    background: #ffd21499;
+    cursor: pointer;
+}
+
+.btn.btn-success:active {
+    background: #ffd214;
+}
+.react-autosuggest__container
+{
+    position: relative;
+}
+
+.react-autosuggest__input
+{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.react-autosuggest__input--focused
+{
+    outline: none;
+}
+
+.react-autosuggest__input--open
+{
+    border-bottom-left-radius:  0;
+    border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container
+{
+    display: none;
+}
+
+.react-autosuggest__suggestions-container--open
+{
+    display:            block;
+    position:           absolute;
+    top:                33px;
+    width:              100%;
+    min-width:          160px;
+    margin-left:        1px;
+    background-color: #FFFFFF;
+    border-radius:      0 0 4px 4px;
+    z-index:            2;
+    box-shadow:         0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip:    padding-box;
+}
+
+.react-autosuggest__suggestions-list
+{
+    margin:             0;
+    padding:            0;
+    list-style-type:    none;
+}
+
+.react-autosuggest__suggestion
+{
+    cursor:     pointer;
+    padding:    10px 20px;
+}
+
+.delimiter {
+    padding: 5px;
+    border: 0px solid #ccc;
+    border-width: 1px 0 1px 0;
+}
+
+/* side navigation section */
+#sidenav {
+    border-right: 1px solid #ccc;
+    height: 100%;
+}
+
+.header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    padding: 10px;
+}
+
+.section-tab {
+    padding: 10px;
+    border-left: 1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-tab.active {
+    background: #ffd214;
+}
+
+.section-tab:hover {
+    background: #ffd21499;
+    cursor: pointer;
+}
+
+.section-tab:active {
+    background: #ffd214;
+}
+
+.section-tab .icon {
+    font-size: 38pt;
+    padding-bottom: 5px;
+}
+
+.tab-img {
+    height: 55px;
+}
+
+.menu {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-schedules {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.point, .point.point-small {
+    border: 2px solid;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    padding-top: 1px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.point-big {
+    border: 2px solid;
+    border-radius: 150px;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 25px;
+    margin: auto;
+}
+
+[class^="no-result"] {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 75pt;
+    color: #ccc;
+}
+
+.no-result .point, .no-result .point-big {
+    margin: 20px auto;
+}
+
+#switch-stations-btn {
+    height: 82px;
+    padding: 4px;
+    padding-top: 28px;
+}
+
+#switch-stations-btn .switch-img {
+    height: 25px;
+}
+
+.advanced-options {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+#options-btn, #option-btn.colapse {
+    padding: 4px;
+    height: 35px;
+    width: 35px;
+}
+
+#options-btn .options-img {
+    height: 25px;
+}
+
+#results {
+    /*height: 100%;*/
+}
+
+.no-result {
+    color: #ccc;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Connection list */
+.connection-item {
+    font-size: 16pt;
+    height: 85px;
+    border-bottom: 1px solid #ccc;
+}
+
+.connection-item {
+    font-size: 12pt;
+    text-align: center;
+}
+
+.connection-item:hover {
+    background: #f7f7f7;
+    cursor: pointer;
+}
+
+.connection-item > div {
+    height: 100%;
+    margin: auto;
+}
+
+.connection-item .departure-time, .connection-item .arrival-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connection-item .connection-info {
+    border: 0px solid #ccc;
+    border-width: 0 1px 0 1px;
+}
+
+.connection-item .connection-info {
+    border: 0px solid #ccc;
+    border-width: 0 1px 0 1px;
+}
+
+.connection-item .connection-info .connections-numbers {
+    height: 65%;
+    padding-top: 10px;
+}
+
+.connection-item .connection-info .duration {
+    height: 35%;
+}
+
+.vehicle-icon {
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+
+.vehicle-icon.vehicle-tram-icon {
+    background-image: url("images/tram.png");
+}
+
+.vehicle-icon.vehicle-bus-icon {
+    background-image: url("images/bus.png");
+}
+
+.vehicle-icon.vehicle-train-icon {
+    background-image: url("images/train.png");
+}
+
+.vehicle-icon.vehicle-boat-icon {
+    background-image: url("images/cruise.png");
+}
+
+.vehicle-number-icon {
+    border: 2px solid #444;
+    padding: 5px 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stop-departures .connection-info {
+    padding-top: 23px;
+}
+
+.stop-departures .route-info {
+    padding-top: 10px;
+}
+
+.stop-numbers .stop-number {
+    width: 16.66666667%;
+    border: 2px solid #444;
+    padding: 5px 10px;
+    font-weight: bold;
+    float: left;
+    margin: 5px;
+    text-align: center;
+}
+
+.stop-numbers .stop-number:hover {
+    background: #f7f7f7;
+    cursor: pointer;
+}
+
+.connection-header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+}
+
+.connection-route .station {
+    padding: 10px 35px;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+.connection-route .station.end-station {
+    font-weight: bold;
+}
+
+.station-name {
+    padding-top: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.schedule-table .minutes span {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.connection-graphic .route {
+    padding: 15px 35px;
+    font-size: 12pt;
+}
+
+.connection-graphic .route .time {
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.connection-graphic .route .vehicle {
+    padding: 30px 0;
+    padding-left: 75px;
+    margin-left: 8px;
+    border-left: 1px solid;
+}
+
+.connection-graphic .route .walking {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.connection-graphic .route .walking .icon {
+    font-size: 20pt;
+}
+
+/* map section */
+#map {
+    height: 100%;
+}

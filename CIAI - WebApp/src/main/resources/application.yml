@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:./h2-filedb;INIT=create schema if not exists APPSCHEMA
+    username: sa
+    password: sa
+    continue-on-error: false
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  data:
+    rest:
+      detection-strategy: annotated
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ciaitest123ciaitest123@gmail.com
+    password: CIAITEST123$$$
+    protocol: smtp
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+#    test-connection: true
+
+app:
+  jwtSecret: JWTSuperSecretKey
+  jwtExpirationInMs: 604800000
+
+
+  

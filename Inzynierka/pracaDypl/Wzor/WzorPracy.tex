@@ -1,0 +1,275 @@
+\documentclass[10pt,titlepage]{article}
+\usepackage{graphicx}
+%\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{stmaryrd}
+\usepackage{url}
+%\usepackage{longtable}
+\usepackage[figuresright]{rotating}
+\usepackage{titlesec}
+\usepackage{hyperref} 
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{geometry}
+\usepackage{pslatex}
+%\usepackage{ulem}
+
+\usepackage{listings}
+\usepackage{url}
+\usepackage{Here}
+
+\usepackage{color}
+\definecolor{szary}{gray}{0.75}% jasnoszary
+
+%\setlength{\textwidth}{400pt}
+
+\lstset{numbers=left,
+			numberstyle=\tiny, 
+			basicstyle=\scriptsize\ttfamily, 
+			breaklines=true, 
+			captionpos=b, 
+			tabsize=2}
+
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+
+\vfuzz2pt % Don't report over-full v-boxes if over-edge is small
+\hfuzz2pt % Don't report over-full h-boxes if over-edge is small
+
+
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\TAB}{\hspace{0.50cm}}
+\newcommand{\IFF}{\leftrightarrow}
+\newcommand{\IMP}{\rightarrow}
+
+\newcommand{\PRZYKLAD}[1]{\par \noindent{\color{blue}PRZYKŁAD:}\\ {\color{szary}#1}\par}
+
+\newtheorem{theorem}{Twierdzenie}[section]
+\newtheorem{lemma}{Lemat}[section]
+\newtheorem{example}{Przykład}[section]
+\newtheorem{corollary}{Wniosek}[section]
+\newtheorem{definition}{Definicja}[section]
+
+\hyphenation{wszy-stkich ko-lu-mnę każ-da od-leg-łość
+   dzie-dzi-ny dzie-dzi-na rów-nych rów-ny
+   pole-ga zmie-nna pa-ra-met-rów wzo-rem po-cho-dzi
+   o-trzy-ma wte-dy wa-run-ko-wych lo-gicz-nie
+   skreś-la-na skreś-la-ną cał-ko-wi-tych wzo-rów po-rzą-dek po-rząd-kiem
+   przy-kład pod-zbio-rów po-mię-dzy re-pre-zen-to-wa-ne
+   rów-no-waż-ne bi-blio-te-kach wy-pro-wa-dza ma-te-ria-łów
+   prze-ka-za-nym skoń-czo-nym mo-żesz na-tu-ral-na cią-gu tab-li-cy
+   prze-ka-za-nej}
+
+\titleclass{\subsubsubsection}{straight}[\subsection]
+
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}} % optional; useful if paragraphs are to be numbered
+
+\titleformat{\subsubsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{5}{\z@}%
+  {3.25ex \@plus1ex \@minus.2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{6}{\parindent}%
+  {3.25ex \@plus1ex \@minus .2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}}
+\def\toclevel@subsubsubsection{4}
+\def\toclevel@paragraph{5}
+\def\toclevel@paragraph{6}
+\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+\def\l@paragraph{\@dottedtocline{5}{10em}{5em}}
+\def\l@subparagraph{\@dottedtocline{6}{14em}{6em}}
+\makeatother
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\begin{document}
+
+\pagestyle{empty} %To jest strona tytułowa, bez numeracji
+
+\begin{titlepage}
+\vspace*{\fill}
+\begin{center}
+\begin{picture}(300,510)
+  \put( 10,520){\makebox(0,0)[l]{\large \bf \textsc{Wydział Podstawowych Problemów Techniki}}}
+  \put( 10,500){\makebox(0,0)[l]{\large \bf \textsc{Politechniki Wrocławskiej}}}
+  \put( 70,280){\makebox(0,0)[l]{\Huge  \bf \textsc{Tytuł pracy}}}
+  \put(100,240){\makebox(0,0)[l]{\large     \textsc{Imię i nazwisko}}}
+
+  \put(170, 80){\makebox(0,0)[l]{\large  {Praca inżynierska napisana}}}
+  \put(170, 60){\makebox(0,0)[l]{\large  {pod kierunkiem}}}
+  \put(170, 40){\makebox(0,0)[l]{\large  {..........................}}}
+
+  \put(100,-80){\makebox(0,0)[bl]{\large \bf \textsc{Wrocław 2014}}}
+\end{picture}
+\end{center}
+\vspace*{\fill}
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+
+\pagestyle{headings}  %Zaczynamy właściwą część dokumentu
+
+\section*{Wstęp}      %* oznacza, że ta sekcja nie będzie numerowana   
+
+Praca dyplomowa inżynierska jest dokumentem opisującym zrealizowany system techniczny. 
+Praca powinna być napisana poprawnym językiem odzwierciedlającym aspekty techniczne (informatyczne) omawianego zagadnienia. Praca możemy pisać w liczbie mnogiej (np. ,,omówimy'', ,,zdefiniujemy'', \ldots). 
+W poniższym dokumencie przykłady sformułowań oznaczono kolorem niebieskim. 
+W opisie elementów systemu, komponentów, elementów kodów źródłowych, nazw plików, wejść i wyjść konsoli należy stosować czcionkę stałej szerokości, np: 
+{\color{szary}zmienna \verb|wynik| przyjmuje wartość zwracaną przez funkcję \verb|dodaj(a,b)|, 
+dla argumentów \verb|a| oraz \verb|b| przekazywanych \ldots}.
+
+Dokument ten jest może być potraktowany jako szablom pracy: jest podzielony na rozdziały zawierające analizę zagadnienia, 
+opis projektu systemu oraz implementację. 
+  
+Wstęp pracy (nie numerowany) powinien składać się z czterech części (które nie są wydzielane jako osobne podrozdziały): 
+zakresu pracy, celu, analizy i porównania istniejących rozwiązań oraz przeglądu literatury, opisu zawartości pracy.
+
+Każdy rozdział powinien rozpoczynać się od akapitu wprowadzającego, w którym zostaje w skrócie omówiona zawartość tego rozdziału.
+
+\PRZYKLAD{
+\marginpar{Krótkie omówienie celu pracy}
+Celem zrealizowanej pracy dyplomowej było zaprojektowanie oraz zbudowanie wielowarstwowego, rozproszonego 
+systemu informatyczne typu ,,B2B'', wspierającego wymianę danych pomiędzy przedsiębiorstwami. 
+Systemy tego typu, konstruowane dla dużych korporacji, charakteryzują się złożoną 
+struktura poziomą i pionową, w której dokumenty \ldots. 
+
+Oto założenia funkcjonalne, które spełniać miała zrealizowana aplikacja:
+\begin{itemize}
+  \item wspieranie zarządzania obiegiem dokumentów wewnątrz korporacji z uwzględnieniem \ldots,
+	\item wspieranie zarządzania zasobami ludzkimi z uwzględnieniem modułów kadrowych oraz \ldots,
+	\item gotowość do uzyskania certyfikatu ISO \ldots,
+	\item \ldots.
+\end{itemize}
+
+\par
+\marginpar{Porównanie z podobnymi systemami}
+Istnieje szereg aplikacji o zbliżonej funkcjonalności: \ldots, przy czym \ldots.
+Zrealizowany projekt, w przeciwieństwie do istniejących komercyjnych rozwiązań, cechuje się bardzo prostym
+interfacem użytkownika.\\
+
+\par
+Praca składa się z czterech rozdziałów.\marginpar{Struktura pracy}
+W rozdziale pierwszym omawiamy strukturę przedsiębiorstwa \ldots, 
+charakteryzujemy grupy użytkowników oraz przedstawiamy procedury związane z obiegiem dokumentów. Szczegółowo opisujemy mechanizmy \ldots. Przedstawiamy uwarunkowania prawne udostępniania informacji \ldots, w ramach \ldots.
+
+W rozdziale drugim przedstawiamy szczegółowy projekt systemy w notacji UML. Wykorzystujemy diagramy \ldots.
+Opisujemy w pseudokodzie i omawiamy algorytmy generowania \ldots.
+
+W rozdziale trzecim opisujemy technologie implementacji projektu: wybrany język programowania, biblioteki, system zarządzania bazą danych, itp.  Przedstawiamy dokumentację techniczną kodów źródłowych interfejsów poszczególnych modułów systemu. Przedstawiamy sygnatury metod publicznych oraz \ldots.
+
+W rozdziale czwartym przedstawiamy sposób instalacji i wdrożenia systemu w środowisko docelowym.
+
+Końcowy rozdział zawiera  podsumowanie uzyskanych wyników.\\
+
+\par
+
+
+Projekt zrealizowano w technologii PHP + MySQL. \marginpar{Narzędzia}
+Wykorzystano język HTML5 z elementami CSS3 
+oraz do obsługi poprawności kilku formularzy skorzystano z języka JavaScipt.
+}
+
+Bibliografię organizujemy w postaci pliku BibTex'a. 
+Po dodaniu nowego cytowania należy skompilować plik tex'owy, nastepnie skompilować plik bibtex'a (bibtex.exe) i ponownie
+skompilować plik tex'owy.  
+Oto przykład cytowania z wykorzystaniem tego formatu
+(źródło cytowań znajduje się pliku P2P.bib):
+
+\PRZYKLAD{
+W pracy \cite{Chord2002} omówiono główne założenia projektu omówionego na stronach \cite{ChordProject}.
+W trakcie realizacji systemu wykorzystaliśmy pomysł poprawienia współczynnika jednorodności obciążenia węzłów 
+oparty na pomysłach zawartych w pracy \cite{JCIRandom}  
+}
+
+Do bibliografi należy dołączyć standardową literaturę oraz literaturę specyficzną dla realizowanego projektu.
+Np., jeśli realizowana będzie baza danych w MySQL i obsługiwać ją będziemy w PHP, to dołączmy np. książkę 
+\cite{converse2004php5}. 
+
+\par
+\textbf{Przed rozpoczęciem redagowania pracy zmień koniecznie zmień nazwę tego pliku. 
+Nazwij go np. PD\_XXX\_2014.tex, gdzie XXX to Twoje inicjały.
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Analiza istniejących rozwiązań}
+
+W tym rozdziale należy przedstawić analizę zagadnienia, które podlega informatyzacji. 
+Należy zidentyfikować i opisać obiekty składowe rozważanego wycinka rzeczywistości i ich 
+wzajemne relacje (np. użytkowników systemu i ich role). 
+Należy szczegółowo omówić procesy jakie zachodzą w systemie i które będą informatyzowane, takie jak np. przepływ dokumentów.
+Należy sprecyzować i wypunktować założenia funkcjonalne i pozafunkcjonalne dla projektowanego systemu.
+Jeśli istnieją aplikacje realizujące dowolny podzbiór zadanych funkcjonalności realizowanego systemu 
+należy przeprowadzić ich analizę porównawczą, wskazując na różnice bądź innowacyjne elementy, 
+które projektowany w pracy system informatyczny będzie zawierał.
+Należy odnieść się do uwarunkowań prawnych związanych procesami przetwarzania danych w projektowanym systemie.
+Jeśli zachodzi konieczność, należy wprowadzić i omówić model matematyczny elementów systemu na odpowiednim poziomie abstrakcji.
+
+\subsection{Opis istniejących rozwiązań}
+\subsection{Analiza istniejących rozwiązań}
+\subsection{Co ulepszyc, wlasne przemyslena??}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Analiza biznesowa}
+
+\PRZYKLAD{W tym rozdziale przedstawiamy szczegółowy projekt systemy w notacji UML 
+uwzględniający wymagania funkcjonalne opisane w \ldots. 
+Do opisu relacji pomiędzy składowymi systemu wykorzystano diagramy \ldots.
+Przedstawiono w pseudokodzie i omówiono algorytmy generowania \ldots.}
+
+\subsection{Grupy użytkowników i założenia}
+\subsection{SWOT}
+\subsection{Analiza wymagań}
+\subsubsection{Wymagania funkcjonalne}
+\subsubsection{Wymagania niefunkcjonalne}
+\subsubsubsection{Wykorzystane technologie i narzędzia}
+\subsubsubsection{Wymagania dotyczące rozmiaru bazy danych}
+\subsubsubsection{Wymagania dotyczące bezpieczeństwa systemu}
+
+\section{Projekt systemu}
+\subsection{Wykorzystane technologie}
+\subsection{Przypadki użycia i scenariusze}
+\subsection{Diagramy aktywności}
+\subsection{Diagramy sekwencji}
+\subsection{Diagramy stanu}
+\subsection{Diagramy przepływu}
+\subsection{Projekt bazy danych}
+
+\section{Implementacja systemu}
+\subsection{Opis kodów źródłowych}
+\subsubsection{Back-end}
+\subsubsection{Front-end}
+
+\section{Instalacja i wdrożenie}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BIBLIOGRAFIA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{plain}
+\marginpar{Znajdź w internecie porządnie zredagowane cytowania}
+\bibliography{P2P}
+
+\end{document}

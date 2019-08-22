@@ -1,0 +1,89 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area6#area7#page13" name="Companies page" landmark="false" gr:x="390" gr:y="0">
+  <ContentUnits>
+    <PowerIndexUnit id="sv1#area6#area7#page13#pwu16" name="Companies list" linkOrder="sv1#area6#area7#page13#pwu16#ln18 sv1#area6#area7#page13#pwu16#ln27 sv1#area6#area7#page13#pwu16#ln31 sv1#area6#area7#page13#pwu16#ln34" gr:x="180" gr:y="0" sortable="true" checkable="false" useCountQuery="false">
+      <Link id="sv1#area6#area7#page13#pwu16#ln18" name="Flow1" to="sv1#area6#area7#page6" type="normal" automaticCoupling="true" validate="true" gr:bendpoints="58,80,63,-220;77,140,82,-160;65,188,70,-112"/>
+      <Link id="sv1#area6#area7#page13#pwu16#ln27" name="Flow6" to="sv1#area6#area7#page13#enu3" type="normal" automaticCoupling="true" validate="true"/>
+      <Link id="sv1#area6#area7#page13#pwu16#ln31" name="Flow8" to="sv1#area6#area7#dlu4" type="normal" automaticCoupling="true" validate="true" gr:bendpoints="-67,-14,68,-14"/>
+      <Link id="sv1#area6#area7#page13#pwu16#ln34" name="Flow10" to="sv1#area6#area7#page13#enu7" type="normal" automaticCoupling="true" validate="true"/>
+    </PowerIndexUnit>
+    <EntryUnit id="sv1#area6#area7#page13#enu3" name="Edit company" linkOrder="sv1#area6#area7#page13#enu3#ln35" gr:x="0" gr:y="155" entity="ent1">
+      <Link id="sv1#area6#area7#page13#enu3#ln35" name="Flow7" to="sv1#area6#area7#mfu2" type="normal" automaticCoupling="true" validate="true" gr:bendpoints="-67,-22,68,-22"/>
+    </EntryUnit>
+    <EntryUnit id="sv1#area6#area7#page13#enu7" name="New company" linkOrder="sv1#area6#area7#page13#enu7#ln37" gr:x="320" gr:y="155" entity="ent1">
+      <Link id="sv1#area6#area7#page13#enu7#ln37" name="Flow9" to="sv1#area6#area7#cru5" type="normal" automaticCoupling="true" validate="true" gr:bendpoints="61,24,-74,19"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#area7#page13#pwu16">
+          <layout:Link link="sv1#area6#area7#page13#pwu16#ln18"/>
+          <layout:Link link="sv1#area6#area7#page13#pwu16#ln27"/>
+          <layout:Link link="sv1#area6#area7#page13#pwu16#ln31"/>
+          <layout:Link link="sv1#area6#area7#page13#pwu16#ln34"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#area7#page13#enu3">
+          <layout:Link link="sv1#area6#area7#page13#enu3#ln35"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#area7#page13#enu7">
+          <layout:Link link="sv1#area6#area7#page13#enu7#ln37"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

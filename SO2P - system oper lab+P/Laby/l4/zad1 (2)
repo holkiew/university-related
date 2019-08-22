@@ -1,0 +1,39 @@
+#!/bin/sh
+
+#Dane jest drzewo kat. Dla każdego pliku zwykłego wypisac rozmiar w setkach bajtow, a dla plikow w ktorych my mamy prawo zapisu wypisac nazwe wlasciciela ze znakami # i & zamiast samoglosek i spolglosek wypisac pierwsze 15 wynikow
+
+if [ $# -eq 0 ]
+then
+	echo "Brak argumentow"
+	exit $1
+fi
+
+
+if [ ! -d $1 ]
+then
+	echo "$1 nie jest katalogiem lub nie istnieje"
+	exit 2
+fi
+
+ #-type f
+find $1 \( -writable -printf "%s %p %u yes %y \n" , -printf "%s %p %u no %y \n" \)  | head -n 15 | while read size plik owner writeable typefile 
+do
+
+
+if [ $writeable = "no" -a $typefile = "f" ]
+then
+	echo "$plik rozmiar: $(($size/100))" 		
+fi
+
+if [ $writeable = "yes" -a $typefile = "f" ]
+then
+	echo `$owner | tr aeiouy \#  | tr  qwerpsdfghijklzxcvbnm \&`
+	echo "$plik rozmiar: $(($size/100))"		
+fi
+
+if [ ! $typefile = "f" -a $writeable = "yes"]
+then 
+	echo `$owner | tr aeiouy \#  | tr  qwerpsdfghijklzxcvbnm \&`
+fi
+
+done

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="758.0" style="-fx-background-color: #ABCD;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.panelController.PanelController">
+   <padding>
+      <Insets bottom="500.0" left="500.0" right="500.0" top="500.0" />
+   </padding>
+   <children>
+      <ScrollPane layoutX="100.0" layoutY="83.0" prefHeight="388.0" prefViewportHeight="386.0" prefViewportWidth="401.0" prefWidth="484.0">
+         <content>
+            <TableView fx:id="tabela" layoutX="100.0" layoutY="83.0" prefHeight="386.0" prefWidth="482.0">
+              <columns>
+                <TableColumn id="index" fx:id="index" prefWidth="34.0" resizable="false" text="#" />
+                <TableColumn id="druzyna" fx:id="druzyna" prefWidth="182.0" resizable="false" text="Drużyna" />
+                  <TableColumn id="m" fx:id="m" minWidth="28.0" prefWidth="28.0" resizable="false" text="M" />
+                  <TableColumn id="z" fx:id="z" minWidth="28.0" prefWidth="28.0" resizable="false" text="Z" />
+                  <TableColumn id="p" fx:id="p" minWidth="28.0" prefWidth="28.0" resizable="false" text="P" />
+                  <TableColumn id="ppd" fx:id="ppd" minWidth="35.0" prefWidth="35.0" resizable="false" text="Ppd" />
+                  <TableColumn id="b" fx:id="b" minWidth="28.0" prefWidth="28.0" resizable="false" text="B" />
+                  <TableColumn id="bramki" fx:id="bramki" minWidth="75.0" prefWidth="75.0" resizable="false" text="Bramki" />
+                  <TableColumn id="pkt" fx:id="pkt" minWidth="35.0" prefWidth="35.0" resizable="false" text="Pkt" />
+              </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+      <Button fx:id="saveButton" layoutX="611.0" layoutY="107.0" mnemonicParsing="false" onAction="#saveFile" text="Zapisz do pliku" />
+      <Button layoutX="611.0" layoutY="146.0" mnemonicParsing="false" onAction="#loadFile" text="Wczytaj z pliku" />
+      <Button layoutX="612.0" layoutY="245.0" mnemonicParsing="false" onAction="#addTeam" text="Dodaj drużyne" />
+      <Button layoutX="614.0" layoutY="291.0" mnemonicParsing="false" onAction="#deleteTeam" text="Usuń drużyne" />
+      <TextField fx:id="nazwaPliku" layoutX="595.0" layoutY="49.0" />
+      <Label layoutX="521.0" layoutY="53.0" text="nazwa pliku" />
+   </children>
+</Pane>

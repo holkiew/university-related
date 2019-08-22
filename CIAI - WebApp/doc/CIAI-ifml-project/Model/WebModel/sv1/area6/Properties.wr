@@ -1,0 +1,36 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="30" gr:y="180" id="sv1#area6" name="Logged user area" landmark="true" landmarks="sv1#area6#area7 sv1#area6#area9 sv1#area6#page18 sv1#area6#lou1" defaultPage="sv1#area6#dlu1">
+  <OperationUnits>
+    <ModifyUnit id="sv1#area6#mfu3" name="Update EventProposal" gr:x="1300" gr:y="1140" entity="ent3">
+      <Selector id="sv1#area6#mfu3#su20" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#mfu3#su20#kcond20" name="KeyCondition18" predicate="in" implied="false"/>
+      </Selector>
+    </ModifyUnit>
+    <DeleteUnit id="sv1#area6#dlu5" name="Delete User" gr:x="40" gr:y="170" entity="ent2">
+      <Selector id="sv1#area6#dlu5#su27" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#dlu5#su27#kcond27" name="KeyCondition9" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv1#area6#dlu5#oln14" name="OKFlow5" to="sv1#page14" automaticCoupling="true" gr:bendpoints="-87,-2,-632,338;-87,-339,-632,1"/>
+    </DeleteUnit>
+    <CreateUnit id="sv1#area6#cru7" name="Create EventProposal" gr:x="1300" gr:y="500" entity="ent3">
+      <OKLink id="sv1#area6#cru7#oln15" name="OKFlow10" to="sv1#area6#page19#pwu19" automaticCoupling="true"/>
+      <KOLink id="sv1#area6#cru7#kln13" name="KOFlow6" to="sv1#area6#page19#enu11" automaticCoupling="true" gr:bendpoints="77,-56,-9,74"/>
+    </CreateUnit>
+    <ModifyUnit id="sv1#area6#mfu5" name="Update User" gr:x="145" gr:y="40" entity="ent2">
+      <Selector id="sv1#area6#mfu5#su28" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#mfu5#su28#kcond28" name="KeyCondition10" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv1#area6#mfu5#oln16" name="OKFlow6" to="sv1#area6#page16#dau12" automaticCoupling="true"/>
+      <KOLink id="sv1#area6#mfu5#kln14" name="KOFlow3" to="sv1#area6#page16#enu8" automaticCoupling="true" gr:bendpoints="24,61,19,-74"/>
+    </ModifyUnit>
+    <LogoutUnit gr:x="1295" gr:y="115" id="sv1#area6#lou1" name="Logout" siteView="sv1" landmark="true"/>
+    <DeleteUnit gr:x="1295" gr:y="1250" id="sv1#area6#dlu1" name="Delete EventProposal" entity="ent3">
+      <Selector id="sv1#area6#dlu1#su1" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#dlu1#su1#kcond1" name="KeyCondition1" predicate="in" implied="false"/>
+      </Selector>
+    </DeleteUnit>
+    <CreateUnit gr:x="1270" gr:y="1030" id="sv1#area6#cru1" name="Create EventProposalReview">
+      <KOLink id="sv1#area6#cru1#kln1" name="KOFlow1" to="sv1#area6#page20#enu1" automaticCoupling="true" gr:bendpoints="-130,-15,126,-15"/>
+      <OKLink id="sv1#area6#cru1#oln1" name="OKFlow1" to="sv1#area6#page20#dau1" automaticCoupling="true" gr:bendpoints="-119,-36,27,74"/>
+    </CreateUnit>
+  </OperationUnits>
+</Area>

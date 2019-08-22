@@ -1,0 +1,32 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1#area6#area7" name="ECMA ADMIN area" landmarks="sv1#area6#area7#area8" landmark="true" gr:x="15" gr:y="305" defaultPage="sv1#area6#area7#cru3">
+  <OperationUnits>
+    <DeleteUnit id="sv1#area6#area7#dlu4" name="Delete company" gr:x="405" gr:y="40" entity="ent1">
+      <Selector id="sv1#area6#area7#dlu4#su14" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#area7#dlu4#su14#kcond14" name="KeyCondition5" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv1#area6#area7#dlu4#oln4" name="OKFlow3" to="sv1#area6#area7#page13#pwu16" automaticCoupling="true" gr:bendpoints="-88,-15,72,40"/>
+    </DeleteUnit>
+    <CreateUnit id="sv1#area6#area7#cru5" name="Create company" gr:x="720" gr:y="40" entity="ent1">
+      <OKLink id="sv1#area6#area7#cru5#oln8" name="OKFlow4" to="sv1#area6#area7#page13#pwu16" automaticCoupling="true"/>
+      <KOLink id="sv1#area6#area7#cru5#kln9" name="KOFlow2" to="sv1#area6#area7#page13#enu7" automaticCoupling="true" gr:bendpoints="15,69,15,-81"/>
+    </CreateUnit>
+    <ModifyUnit id="sv1#area6#area7#mfu2" name="Update company" gr:x="575" gr:y="170" entity="ent1">
+      <Selector id="sv1#area6#area7#mfu2#su16" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#area7#mfu2#su16#kcond16" name="KeyCondition4" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv1#area6#area7#mfu2#oln11" name="OKFlow2" to="sv1#area6#area7#page13#pwu16" automaticCoupling="true"/>
+      <KOLink id="sv1#area6#area7#mfu2#kln10" name="KOFlow1" to="sv1#area6#area7#page13#enu3" automaticCoupling="true" gr:bendpoints="73,19,-62,19"/>
+    </ModifyUnit>
+    <CreateUnit gr:x="130" gr:y="470" id="sv1#area6#area7#cru3" name="Create user" entity="User"/>
+    <DeleteUnit gr:x="275" gr:y="455" id="sv1#area6#area7#dlu3" name="Delete user" entity="User">
+      <Selector id="sv1#area6#area7#dlu3#su4" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#area7#dlu3#su4#kcond4" name="KeyCondition4" predicate="in" implied="false"/>
+      </Selector>
+    </DeleteUnit>
+    <ModifyUnit gr:x="265" gr:y="340" id="sv1#area6#area7#mfu1" name="Update user" entity="User">
+      <Selector id="sv1#area6#area7#mfu1#su5" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#area7#mfu1#su5#kcond5" name="KeyCondition5" predicate="in" implied="false"/>
+      </Selector>
+    </ModifyUnit>
+  </OperationUnits>
+</Area>

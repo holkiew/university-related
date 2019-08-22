@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# W zadanym drzewie katalogow znalezc (tj. wypisac) pliki zwykle do #ktorych ich wlasciciel ma prawo wykonania lub my mamy prawo zapisu
+
+if [ $# -eq 0 ]
+then
+	echo "Brak argumentow"
+	exit $1
+fi
+
+
+if [ ! -d $1 ]
+then
+	echo "$1 nie jest katalogiem lub nie istnieje"
+	exit 2
+fi
+
+find $1 -type f \( -perm -100 -or -writable \) -print

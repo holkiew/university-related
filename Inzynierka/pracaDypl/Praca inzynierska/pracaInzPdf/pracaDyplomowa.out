@@ -1,0 +1,87 @@
+\BOOKMARK [1][-]{section.1}{Wstep}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Wprowadzenie}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Cel pracy}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Analiza rynku}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Podobne rozwiazanie - uShip}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Podobne rozwiazanie - Oferteo}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Podobne rozwiazanie - Allegro}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Projektowana aplikacja}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.5}{Podsumowanie analizy}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{Om\363wienie koncepcji systemu}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Og\363lny opis projektu}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Docelowi uzytkownicy}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Cele funkcjonowania systemu}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{Opis funkcjonalnosci}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Wymagania funkcjonalne}{subsection.3.4}% 15
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Wymagania niefunkcjonalne}{subsection.3.4}% 16
+\BOOKMARK [1][-]{section.4}{Analiza dostepnych narzedzi}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Baza danych}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.2}{Serwer}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.3}{Aplikacja kliencka}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.4}{Podsumowanie wyboru technologii}{section.4}% 21
+\BOOKMARK [1][-]{section.5}{Projekt systemu}{}% 22
+\BOOKMARK [2][-]{subsection.5.1}{Architektura systemu}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.2}{Diagramy klas}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.3}{Diagramy zwiazk\363w encji}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.4}{Diagramy przypadk\363w uzycia}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.5}{Diagramy aktywnosci}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.6}{Diagramy sekwencji}{section.5}% 28
+\BOOKMARK [2][-]{subsection.5.7}{Opis mechanizm\363w bezpieczenstwa}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.8}{Opis endpoint\363w}{section.5}% 30
+\BOOKMARK [3][-]{subsubsection.5.8.1}{Backend}{subsection.5.8}% 31
+\BOOKMARK [3][-]{subsubsection.5.8.2}{Frontend}{subsection.5.8}% 32
+\BOOKMARK [2][-]{subsection.5.9}{Szkice i funkcjonalnosc aplikacji klienckiej}{section.5}% 33
+\BOOKMARK [3][-]{subsubsection.5.9.1}{Logowanie}{subsection.5.9}% 34
+\BOOKMARK [3][-]{subsubsection.5.9.2}{Wyszukiwanie aukcji}{subsection.5.9}% 35
+\BOOKMARK [3][-]{subsubsection.5.9.3}{Rejestracja nowego uzytkownika}{subsection.5.9}% 36
+\BOOKMARK [3][-]{subsubsection.5.9.4}{Panel uzytkownika}{subsection.5.9}% 37
+\BOOKMARK [3][-]{subsubsection.5.9.5}{Aukcja}{subsection.5.9}% 38
+\BOOKMARK [3][-]{subsubsection.5.9.6}{Stw\363rz nowa aukcje}{subsection.5.9}% 39
+\BOOKMARK [3][-]{subsubsection.5.9.7}{Aktywacja konta}{subsection.5.9}% 40
+\BOOKMARK [3][-]{subsubsection.5.9.8}{Wsp\363lne elementy}{subsection.5.9}% 41
+\BOOKMARK [1][-]{section.6}{Implementacja systemu}{}% 42
+\BOOKMARK [2][-]{subsection.6.1}{Implementacja bazy danych}{section.6}% 43
+\BOOKMARK [2][-]{subsection.6.2}{Implementacja serwera}{section.6}% 44
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Struktura projektu}{subsection.6.2}% 45
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Konfiguracja projektu - Maven}{subsection.6.2}% 46
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Encje}{subsection.6.2}% 47
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Obiekty dostepu danych}{subsection.6.2}% 48
+\BOOKMARK [3][-]{subsubsection.6.2.5}{Serwisy danych}{subsection.6.2}% 49
+\BOOKMARK [3][-]{subsubsection.6.2.6}{Serwis mailowy}{subsection.6.2}% 50
+\BOOKMARK [3][-]{subsubsection.6.2.7}{Udostepnianie danych za pomoca kontrolera}{subsection.6.2}% 51
+\BOOKMARK [3][-]{subsubsection.6.2.8}{Przyk\233adowe obiekty transferu danych - DTO}{subsection.6.2}% 52
+\BOOKMARK [3][-]{subsubsection.6.2.9}{Dane inicjujace}{subsection.6.2}% 53
+\BOOKMARK [3][-]{subsubsection.6.2.10}{Przyk\233ad uruchomienia serwera}{subsection.6.2}% 54
+\BOOKMARK [2][-]{subsection.6.3}{Implementacja aplikacji klienckiej}{section.6}% 55
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Struktura projektu}{subsection.6.3}% 56
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Integracja z serwerem}{subsection.6.3}% 57
+\BOOKMARK [3][-]{subsubsection.6.3.3}{G\233\363wny modu\233 aplikacji}{subsection.6.3}% 58
+\BOOKMARK [3][-]{subsubsection.6.3.4}{Logowanie}{subsection.6.3}% 59
+\BOOKMARK [3][-]{subsubsection.6.3.5}{Widok dostepnych aukcji}{subsection.6.3}% 60
+\BOOKMARK [3][-]{subsubsection.6.3.6}{Implementacja wielojezycznosci}{subsection.6.3}% 61
+\BOOKMARK [3][-]{subsubsection.6.3.7}{Uruchomienie aplikacji klienckiej}{subsection.6.3}% 62
+\BOOKMARK [1][-]{section.7}{Uzytkowanie aplikacji}{}% 63
+\BOOKMARK [2][-]{subsubsection.7.0.1}{Logowanie i wylogowywanie}{section.7}% 64
+\BOOKMARK [3][-]{subsubsection.7.0.2}{Stworzenie nowej aukcji}{subsubsection.7.0.1}% 65
+\BOOKMARK [3][-]{subsubsection.7.0.3}{Stworzenie nowego uzytkownika}{subsubsection.7.0.1}% 66
+\BOOKMARK [3][-]{subsubsection.7.0.4}{Wyswietlenie aukcji}{subsubsection.7.0.1}% 67
+\BOOKMARK [1][-]{section.8}{Wdrozenie i ocena jakosci}{}% 68
+\BOOKMARK [2][-]{subsection.8.1}{Podstawowe wymagania instalacji systemu}{section.8}% 69
+\BOOKMARK [3][-]{subsubsection.8.1.1}{Instalacja Javy}{subsection.8.1}% 70
+\BOOKMARK [3][-]{subsubsection.8.1.2}{Instalacja Maven'a}{subsection.8.1}% 71
+\BOOKMARK [3][-]{subsubsection.8.1.3}{Instalacja nodeJS}{subsection.8.1}% 72
+\BOOKMARK [3][-]{subsubsection.8.1.4}{Instalacja i konfiguracja bazy danych}{subsection.8.1}% 73
+\BOOKMARK [2][-]{subsection.8.2}{Instalacja i budowa aplikacji}{section.8}% 74
+\BOOKMARK [2][-]{subsection.8.3}{Uruchomienie aplikacji}{section.8}% 75
+\BOOKMARK [2][-]{subsection.8.4}{Testy aplikacji}{section.8}% 76
+\BOOKMARK [3][-]{subsubsection.8.4.1}{Istniejace testy}{subsection.8.4}% 77
+\BOOKMARK [3][-]{subsubsection.8.4.2}{Testy kt\363re powinny zostac zaimplementowane}{subsection.8.4}% 78
+\BOOKMARK [2][-]{subsection.8.5}{Weryfikacja}{section.8}% 79
+\BOOKMARK [2][-]{subsection.8.6}{Walidacja}{section.8}% 80
+\BOOKMARK [1][-]{section.9}{Podsumowanie}{}% 81
+\BOOKMARK [2][-]{subsection.9.1}{Technologie}{section.9}% 82
+\BOOKMARK [2][-]{subsection.9.2}{Realizacja pracy}{section.9}% 83
+\BOOKMARK [2][-]{subsection.9.3}{Wnioski}{section.9}% 84
+\BOOKMARK [2][-]{subsection.9.4}{Dalsze mozliwosci rozwoju systemu}{section.9}% 85
+\BOOKMARK [1][-]{Item.243}{Literatura}{}% 86
+\BOOKMARK [1][-]{appendix.A}{Opis za\233aczonej p\233yty CD/DVD}{}% 87

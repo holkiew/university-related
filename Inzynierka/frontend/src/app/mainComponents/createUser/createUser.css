@@ -1,0 +1,25 @@
+div.container {
+    margin-top: 200px;
+    width: 50%;
+    padding-left: 10%;
+
+    border: 3px solid green;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+button#createUser {
+    width: 150px;
+}
+
+div.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    size: 50px;
+}

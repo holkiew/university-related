@@ -1,0 +1,12 @@
+<header>
+    <nav>
+        <a [routerLink]="['/login']">Login</a>
+        <a [routerLink]="['/createAuction']">Create new auction</a>
+        <a [routerLink]="['/listAuctions']">List auctions</a>
+        <a [routerLink]="['/createUser']">Create new account</a>
+    </nav>
+</header>
+<as-language-choice></as-language-choice>
+<div class="main">
+    <router-outlet></router-outlet>
+</div>

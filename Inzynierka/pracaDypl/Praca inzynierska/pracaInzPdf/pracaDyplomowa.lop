@@ -1,0 +1,25 @@
+\contentsline {listing}{\numberline {1}{\ignorespaces Konfiguracja dost\IeC {\k e}pu do bazy danych przy u\IeC {\.z}yciu \textit {Hibernate} - XML}}{42}{listing.caption.61}
+\contentsline {listing}{\numberline {2}{\ignorespaces Konfiguracja dost\IeC {\k e}pu do bazy danych przy u\IeC {\.z}yciu \textit {Hibernate} - Java}}{43}{listing.caption.62}
+\contentsline {listing}{\numberline {3}{\ignorespaces Implementacja serwera - konfiguracja \textit {Maven'a} }}{46}{listing.caption.64}
+\contentsline {listing}{\numberline {4}{\ignorespaces Implementacja serwera - encje}}{47}{listing.caption.65}
+\contentsline {listing}{\numberline {5}{\ignorespaces Implementacja serwera - wsp\IeC {\'o}lne metody}}{49}{listing.caption.66}
+\contentsline {listing}{\numberline {6}{\ignorespaces Implementacja serwera - obiekt dost\IeC {\k e}pu danych u\IeC {\.z}ytkownika}}{50}{listing.caption.67}
+\contentsline {listing}{\numberline {7}{\ignorespaces Implementacja serwera - serwis u\IeC {\.z}ytkownika}}{51}{listing.caption.68}
+\contentsline {listing}{\numberline {8}{\ignorespaces Implementacja serwera - serwis e-mail}}{52}{listing.caption.69}
+\contentsline {listing}{\numberline {9}{\ignorespaces Implementacja serwera - konfiguracja serwisu e-mail}}{53}{listing.caption.70}
+\contentsline {listing}{\numberline {10}{\ignorespaces Implementacja serwera - kontroler tworz\IeC {\k a}cy nowego u\IeC {\.z}ytkownika}}{55}{listing.caption.72}
+\contentsline {listing}{\numberline {11}{\ignorespaces Implementacja serwera - przyk\IeC {\l }adowy obiekt transferu danych - aukcja}}{56}{listing.caption.73}
+\contentsline {listing}{\numberline {12}{\ignorespaces Implementacja serwera - przyk\IeC {\l }adowy dane inicjuj\IeC {\k a}ce}}{57}{listing.caption.74}
+\contentsline {listing}{\numberline {13}{\ignorespaces Implementacja serwera - klasa uruchomiaj\IeC {\k a}ca}}{58}{listing.caption.75}
+\contentsline {listing}{\numberline {14}{\ignorespaces Implementacja aplikacji klienckiej - integracja z serwerem}}{60}{listing.caption.78}
+\contentsline {listing}{\numberline {15}{\ignorespaces Implementacja aplikacji klienckiej - g\IeC {\l }\IeC {\'o}wny modu\IeC {\l } aplikacji}}{62}{listing.caption.80}
+\contentsline {listing}{\numberline {16}{\ignorespaces Implementacja aplikacji klienckiej - router}}{62}{listing.caption.81}
+\contentsline {listing}{\numberline {17}{\ignorespaces Implementacja aplikacji klienckiej - logowanie \textit {HTML}}}{64}{listing.caption.82}
+\contentsline {listing}{\numberline {18}{\ignorespaces Implementacja aplikacji klienckiej - logowanie \textit {CSS}}}{65}{listing.caption.83}
+\contentsline {listing}{\numberline {19}{\ignorespaces Implementacja aplikacji klienckiej - logowanie \textit {Component}}}{66}{listing.caption.84}
+\contentsline {listing}{\numberline {20}{\ignorespaces Implementacja aplikacji klienckiej - lista aukcji \textit {HTML}}}{67}{listing.caption.85}
+\contentsline {listing}{\numberline {21}{\ignorespaces Implementacja aplikacji klienckiej - lista aukcji \textit {Component}}}{68}{listing.caption.86}
+\contentsline {listing}{\numberline {22}{\ignorespaces Implementacja aplikacji klienckiej - implementacja wieloj\IeC {\k e}zyczno\IeC {\'s}ci - \textit {HTML}}}{68}{listing.caption.87}
+\contentsline {listing}{\numberline {23}{\ignorespaces Implementacja aplikacji klienckiej - implementacja wieloj\IeC {\k e}zyczno\IeC {\'s}ci - \textit {CSS}}}{69}{listing.caption.88}
+\contentsline {listing}{\numberline {24}{\ignorespaces Implementacja aplikacji klienckiej - implementacja wieloj\IeC {\k e}zyczno\IeC {\'s}ci - \textit {Component}}}{70}{listing.caption.89}
+\contentsline {listing}{\numberline {25}{\ignorespaces Implementacja aplikacji klienckiej - implementacja wieloj\IeC {\k e}zyczno\IeC {\'s}ci - \textit {Serwis}}}{71}{listing.caption.90}

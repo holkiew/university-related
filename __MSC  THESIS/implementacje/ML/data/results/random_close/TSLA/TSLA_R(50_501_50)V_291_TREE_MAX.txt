@@ -1,0 +1,28 @@
+---BASE RESULTS---
+Value: 290692.14
+sharpeRatio: 2.18
+maxDrawdown: 20.72 
+Annualized return: 1.08
+total compound return: 3.37
+---ESTIMATORS: 50---
+Value: 10000.00
+---ESTIMATORS: 100---
+Value: 10000.00
+---ESTIMATORS: 150---
+Value: 10000.00
+---ESTIMATORS: 200---
+Value: 10000.00
+---ESTIMATORS: 250---
+Value: 10000.00
+---ESTIMATORS: 300---
+Value: 10000.00
+---ESTIMATORS: 350---
+Value: 10000.00
+---ESTIMATORS: 400---
+Value: 10000.00
+---ESTIMATORS: 450---
+Value: 10000.00
+---ESTIMATORS: 500---
+Value: 10000.00
+----Averages----
+Value: 10000.00

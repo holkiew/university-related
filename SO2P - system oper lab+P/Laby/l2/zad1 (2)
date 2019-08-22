@@ -1,0 +1,36 @@
+#!/bin/bash
+
+
+#W zadanym katalogu (parametr skryptu) zamienic wszystkie linki #symboliczne na twarde (tam gdzie to mozliwe) i stworzyc linki #symboliczne do kazdego pliku zwyklego w tym katalogu
+
+if [ $# -eq 0 ]
+then
+	echo "Brak argumentow"
+	exit $1
+fi
+
+
+if [ ! -d $1 ]
+then
+	echo "$1 nie jest katalogiem lub nie istnieje"
+	exit 2
+fi
+
+cd $1
+
+for plik in `ls -a`
+do
+	if [ -h $plik ]			#jesli jest dow. symbolicznym
+	then 
+	echo "$plik jest dowiazaniem symbolicznym"
+	wskazanie=$(readlink $plik)	#wskazanie linka
+				
+	ln -f $wskazanie $plik		#zamiana na dowiazanie twarde
+	fi
+
+	if [ -f $plik ]			#pliki normalne
+	then
+	ln -s $plik $plik.dowiazanie			
+	fi	
+
+done

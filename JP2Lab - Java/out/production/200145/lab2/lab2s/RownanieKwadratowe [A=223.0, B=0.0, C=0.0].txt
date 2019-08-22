@@ -1,0 +1,2 @@
+A: 223.0, B: 0.0, C: 0.0 
+ X1 = Nie istnieje, X2 = Nie istnieje, X0 = -0.0

@@ -1,0 +1,48 @@
+#!/usr/bin/perl -w 
+
+#Dane jest drzewo katalogowe i plik z lista sciezek. Wypisz te pliki (sciezki) z listy, ktore #zawieraja sie w zadanym drzewie
+#regex (obnizona ocena),cdw
+
+if( @ARGV > 2)
+{
+	print " za duzo argumentow\n";
+	exit 1;
+}
+
+if(! -d $ARGV[0] || ! -f $ARGV[1])
+{
+	print "Zle parametry, 1-katalog, 2-plik\n";
+	exit 1;
+}
+
+use Cwd 'abs_path';
+use strict;
+use warnings;
+
+open(my $fh, $ARGV[1]) or die "nie otworzono pliku";
+
+my @tree =  (split '/', abs_path($ARGV[0]));
+
+while (my $row = <$fh>) 
+{
+  chomp $row;
+  my $abspath = abs_path($row);
+  print "Here " .abs_path($ARGV[0])."\n$abspath\n\n"; 
+  my @filepath = split '/', $abspath;
+  my $iterator=0;
+  foreach (@tree){
+	
+	print "$_ oraz $filepath[$iterator]\n"; 
+	if($_ ne $filepath[$iterator])
+	{
+		last;
+	}
+	$iterator++;
+	print "it $iterator " . scalar @tree ."\n";
+	if(scalar @tree == $iterator)
+	{
+		print " $row zawiera sie w $ARGV[0]\n\n";
+	}
+  }
+}
+

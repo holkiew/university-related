@@ -1,0 +1,72 @@
+---BASE RESULTS---
+Value: 1100337.07
+sharpeRatio: 1.57
+maxDrawdown: 30.23 
+Annualized return: 178.39
+total compound return: 470.08
+---ESTIMATORS: 50---
+Value: 26923.44
+sharpeRatio: 0.58
+maxDrawdown: 26.07 
+Annualized return: 45.71
+total compound return: 99.04
+---ESTIMATORS: 100---
+Value: 15871.01
+sharpeRatio: 0.40
+maxDrawdown: 39.20 
+Annualized return: 19.19
+total compound return: 46.19
+---ESTIMATORS: 150---
+Value: 9104.47
+sharpeRatio: -0.08
+maxDrawdown: 25.43 
+Annualized return: -3.50
+total compound return: -9.38
+---ESTIMATORS: 200---
+Value: 12049.39
+sharpeRatio: 0.29
+maxDrawdown: 32.93 
+Annualized return: 7.34
+total compound return: 18.64
+---ESTIMATORS: 250---
+Value: 30825.11
+sharpeRatio: 0.56
+maxDrawdown: 26.69 
+Annualized return: 53.40
+total compound return: 112.57
+---ESTIMATORS: 300---
+Value: 19726.13
+sharpeRatio: 0.43
+maxDrawdown: 31.06 
+Annualized return: 29.46
+total compound return: 67.94
+---ESTIMATORS: 350---
+Value: 17544.11
+sharpeRatio: 0.44
+maxDrawdown: 37.58 
+Annualized return: 23.82
+total compound return: 56.21
+---ESTIMATORS: 400---
+Value: 18992.70
+sharpeRatio: 0.42
+maxDrawdown: 36.37 
+Annualized return: 27.61
+total compound return: 64.15
+---ESTIMATORS: 450---
+Value: 13791.17
+sharpeRatio: 0.32
+maxDrawdown: 36.81 
+Annualized return: 13.00
+total compound return: 32.14
+---ESTIMATORS: 500---
+Value: 25634.24
+sharpeRatio: 0.50
+maxDrawdown: 39.57 
+Annualized return: 43.02
+total compound return: 94.13
+----Averages----
+Value: 19046.18
+sharpeRatio: 0.39
+maxDrawdown: 33.17
+Annualized return: 25.90
+total compound return: 58.16

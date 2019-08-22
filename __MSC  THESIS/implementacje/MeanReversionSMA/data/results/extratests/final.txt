@@ -1,0 +1,29 @@
+BTC USD
+Value:     707502, Params: [52, 184, 53, 76, 39]
+Value:     633907, Params: [20, 165, 37, 85, 31]
+Value:     500334, Params: [68, 262, 60, 79, 37]
+
+CLUB
+Value:      33336, Params: [27, 66, 31, 83, 33]
+Value:      38022, Params: [16, 83, 24, 69, 22]
+Value:      24880, Params: [176, 247, 56, 75, 20]
+
+FB
+Value:      43866, Params: [63, 33, 32, 79, 37]
+Value:      36869, Params: [119, 208, 22, 61, 37]
+Value:      37093, Params: [182, 213, 16, 80, 34]
+
+JPM
+Value:      20179, Params: [45, 145, 20, 86, 39]
+Value:      20810, Params: [86, 135, 20, 60, 37]
+Value:      21139, Params: [74, 107, 30, 82, 28]
+
+TSLA
+Value:      39650, Params: [63, 47, 42, 70, 37]
+Value:      31018, Params: [35, 126, 40, 76, 40]
+Value:      29230, Params: [31, 166, 45, 74, 36]
+
+TUWOY
+Value:      14236, Params: [137, 183, 29, 64, 39]
+Value:      12913, Params: [29, 226, 29, 80, 38]
+Value:      12653, Params: [131, 253, 20, 74, 32]

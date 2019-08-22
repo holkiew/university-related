@@ -1,0 +1,34 @@
+{
+  "findRouteSuggestions": [
+    {
+      "name": "Lisbon",
+      "value": "Lisbon"
+    },
+    {
+      "name": "Universidade",
+      "value": "Calçada de Alfazina 2, 2825-149 Caparica"
+    },
+    {
+      "name": "Cacilhas",
+      "value": "Cacilhas"
+    },
+    {
+      "name": "Cais de sodre",
+      "value": "Cais de sodre"
+    }
+  ],
+  "schedulesSuggestions": [
+    {
+      "name": "1",
+      "value": "Lisbon"
+    },
+    {
+      "name": "2",
+      "value": "Lisbon"
+    },
+    {
+      "name": "Universidade",
+      "value": "Lisbon"
+    }
+  ]
+}

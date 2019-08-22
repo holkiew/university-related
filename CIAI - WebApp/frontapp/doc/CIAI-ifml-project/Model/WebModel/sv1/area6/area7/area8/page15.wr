@@ -1,0 +1,41 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area6#area7#area8#page15" name="Assigned reviews page" gr:x="0" gr:y="0">
+  <ContentUnits>
+    <PowerIndexUnit id="sv1#area6#area7#area8#page15#pwu17" name="Users Assigned Event Proposals List" gr:x="0" gr:y="0" sortable="true" checkable="false" useCountQuery="false" entity="ent3" linkOrder="sv1#area6#area7#area8#page15#pwu17#ln7">
+      <Link id="sv1#area6#area7#area8#page15#pwu17#ln7" name="Flow27" to="sv1#area6#page20" type="normal" automaticCoupling="true" validate="true" gr:bendpoints="-164,-2,-1199,-687;-168,490,-1198,-170;653,497,-377,-163"/>
+    </PowerIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#area7#area8#page15#pwu17">
+          <layout:Link link="sv1#area6#area7#area8#page15#pwu17#ln7"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

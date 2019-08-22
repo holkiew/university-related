@@ -1,0 +1,34 @@
+Option Strategy risk / return ratios - Brain Johnson
+Quantitive investing - Fred Piard
+Trading systems - Urban jaekle Emilio Tomasini
+
+https://books.google.pt/books?id=JW5eBAAAQBAJ&pg=PA179&lpg=PA179&dq=fundamental+trading+media&source=bl&ots=XnA-KlKF1v&sig=ACfU3U1SemZkCxF1wxBb3nFMzpVL-SXgdQ&hl=pl&sa=X&ved=2ahUKEwjQkNDo4oTiAhWdA2MBHZE9ChsQ6AEwA3oECAYQAQ#v=onepage&q=fundamental%20trading%20media&f=false
+
+MEDIA AND FINANCIAL CRISIES NA GORZE - ASPI
+
+https://www.quantstart.com/articles/How-to-Identify-Algorithmic-Trading-Strategies
+
+https://www.quantopian.com/tutorials/getting-started
+
+https://www.quora.com/Where-can-I-find-examples-of-real-life-stock-trading-Python-algorithms
+
+https://www.quantopian.com/lectures
+
+https://www.quantstart.com/articles/Beginners-Guide-to-Quantitative-Trading
+
+
+
+https://pl.wikipedia.org/wiki/Skumulowany_roczny_wska%C5%BAnik_wzrostu
+
+
+https://www.reddit.com/r/algotrading/comments/aeddgt/do_you_guys_read_elite_trader/
+
+EBOOK NA PULPICIE
+
+To answer your question more directly: Typically the most profitable algorithms at quant funds with reasonable levels of volatility (eg. a sharpe ratio of 2+ and max drawdowns of <5–10%) are able to achieve a performance level of 50–80% annual net profit. Even these have a limited shelf life because any algo that produces consistent greater-than-market returns will suffer from alpha decay (the erosion of edge due to others getting in on the action.
+
+https://github.com/joelowj/awesome-algorithmic-trading - collection ofd algo trading data
+
+https://www.quantconnect.com/forum/search/1/momentum
+
+https://www.quantopian.com - algorytym

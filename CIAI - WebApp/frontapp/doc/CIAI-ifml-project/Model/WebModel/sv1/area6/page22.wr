@@ -1,0 +1,102 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area6#page22" name="Home page" landmark="false" gr:x="265" gr:y="0">
+  <ContentUnits>
+    <PowerIndexUnit id="sv1#area6#page22#pwu21" name="Events list" gr:x="0" gr:y="35" sortable="true" checkable="false" useCountQuery="false" entity="ent3" linkOrder="sv1#area6#page22#pwu21#ln3">
+      <Link id="sv1#area6#page22#pwu21#ln3" name="Flow3" to="sv1#area6#page22#page23" automaticCoupling="true" type="normal" validate="true"/>
+    </PowerIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#page22#pwu21">
+          <layout:Link link="sv1#area6#page22#pwu21#ln3"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:SubPage pageId="sv1#area6#page22#page23">
+          <layout:Grid containerType="grid">
+            <layout:Row>
+              <layout:Cell colspan="12">
+                <layout:Unit unitId="sv1#area6#page22#page23#pwu22"/>
+              </layout:Cell>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+              <layout:Cell/>
+            </layout:Row>
+          </layout:Grid>
+        </layout:SubPage>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#page22#page23#dau16"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Page id="sv1#area6#page22#page23" name="Event detail" gr:x="155" gr:y="0">
+    <ContentUnits>
+      <DataUnit id="sv1#area6#page22#page23#dau16" name="Event detail" gr:x="0" gr:y="0" entity="ent3">
+        <Selector id="sv1#area6#page22#page23#dau16#su26" defaultPolicy="fill" booleanOperator="and">
+          <KeyCondition id="sv1#area6#page22#page23#dau16#su26#kcond26" name="KeyCondition6" predicate="in" implied="false"/>
+        </Selector>
+      </DataUnit>
+      <PowerIndexUnit id="sv1#area6#page22#page23#pwu22" name="Event Comments" gr:x="150" gr:y="5" sortable="true" checkable="false" useCountQuery="false" entity="ent5"/>
+    </ContentUnits>
+  </Page>
+</Page>

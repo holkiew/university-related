@@ -1,0 +1,11 @@
+{
+  "backendServer": {
+    "baseUrl": "http://localhost:8080"
+  },
+  "security": {
+    "localStorage": {
+      "authorization": "authorization",
+      "token": "token"
+    }
+  }
+}

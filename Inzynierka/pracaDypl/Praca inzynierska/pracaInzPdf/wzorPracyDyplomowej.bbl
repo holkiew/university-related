@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{ChordProject}
+The chord project.
+\newblock web pages.
+
+\bibitem{JCIRandom}
+J.~Cicho\'{n}, M.~Klonowski, L.~Krzywiecki, B.~Ro\.{z}a\'{n}ski, and
+  P.~Zieli\'{n}ski.
+\newblock Random subsets of the interval and p2p protocols.
+\newblock In M.~Charikar, K.~Jansen, O.~Reigold, and J.D.P. Rolim, editors,
+  {\em Approximation, Randimization and Combinatorial Optimization. Algorithms
+  and Techniques}, volume 4627 of {\em LNCS}. Springer-Verlag, 2007.
+
+\bibitem{converse2004php5}
+T.~Converse, J.~Park, and C.~Morgan.
+\newblock {\em PHP5 and MySQL Bible}.
+\newblock Bible Series. Wiley, 2004.
+
+\bibitem{Chord2002}
+D.~Liben-Nowell, H.~Balakrishnan, and D.~Karger.
+\newblock Analysis of the evolution of peer-to-peer systems.
+\newblock In {\em ACM Conference on Principles of Distributed Computing},
+  Monterey, CA, July 2002.
+
+\end{thebibliography}

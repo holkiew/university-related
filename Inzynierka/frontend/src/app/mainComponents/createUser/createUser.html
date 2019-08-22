@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="title">
+        Create new account
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="input-field col s12">
+                <label for="email">Username</label>
+                <input [(ngModel)]="name" id="username"
+                       type="username" class="validate">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s12">
+                <label for="password">Password</label>
+                <input [(ngModel)]="password" id="password"
+                       type="password" class="validate">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s12">
+                <label for="password">Email</label>
+                <input [(ngModel)]="email" id="email"
+                       type="email" class="validate">
+            </div>
+        </div>
+
+        <label for="createUser"></label>
+        <button (click)="createNewUserResponse()"
+                class="btn waves-effect waves-light" id="createUser"
+                type="submit" name="action">Create account
+        </button>
+        <span>{{errorMsg}}</span>
+    </div>
+    <div *ngIf="responseRead">
+        {{response}}
+        {{basicResponse.responseMessage}}
+    </div>
+</div>

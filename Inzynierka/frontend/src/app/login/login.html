@@ -1,0 +1,45 @@
+<div *ngIf="logged == false">
+    <div class="container">
+        <div class="title">
+            {{messages?.loginInfo}}
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="input-field col s12">
+                    <label for="email">{{messages?.inputLogin}}</label>
+                    <input [(ngModel)]="username" id="email"
+                           type="email" class="validate">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <label for="password">{{messages?.inputPassword}}</label>
+                    <input [(ngModel)]="password" id="password"
+                           type="password" class="validate">
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="login"></label>
+                <button (click)="login()"
+                        class="btn waves-effect waves-light" id="login"
+                        type="submit" name="action">{{messages?.buttonLogin}}
+                </button>
+            </div>
+            <span>{{errorMsg}}</span>
+        </div>
+    </div>
+</div>
+<div *ngIf="logged == true">
+    <div class="container">
+        <div class="row">
+            Zalogowany
+            <button (click)="logout()"
+                    class="btn waves-effect waves-light"
+                    type="submit" name="action">Logout
+            </button>
+        </div>
+    </div>
+</div>
+

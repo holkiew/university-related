@@ -1,0 +1,7 @@
+github.com/gbeced/pyalgotrade
+http://pmorissette.github.io/bt/
+github.com/mementum/backtrader
+github.com/quantopian/zipline
+https://www.interactivebrokers.co.uk/en/index.php?f=5041
+
+https://www.quantconnect.com/blog/quantconnect-live-trading-now-free-for-students/

@@ -1,0 +1,9 @@
+{
+    "testQ1": {
+        "1": ["Tytułowa góra to?", "Tre Cime di Lavaredo", "Zakopany", "3 Wieże", "Wzgórze partyzantów", "Le monte di Caprio", 1],
+        "2": ["Ile sposobów wiązania węzłów zostało przedstawionych?", 6, 13, 5, 7, 9, 4],
+        "3": ["Co sie liczy na mapie hipsometrycznej?", "Złości", "Wysokości", "BPM", "Szacunek ludzi ulicy", "Twarda bania", 2],
+        "4": ["Które auto NIE pasowało do reszty?", "Suzuki samuraj", "Peg Perego", "Kia Asia", "Honker", "Wszystkie są OK", 2],
+        "5": ["Czego NIE ma wulkan?", "Ognisko", "Skała", "Sill", "Płynne epicentrum", "Gardziel", 4]
+    }
+}

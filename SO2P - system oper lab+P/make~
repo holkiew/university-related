@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if(g++ -Wall -std=c++0x -pthread -lncurses main.cpp Bus.cpp City.cpp LiftSeat.cpp Route.cpp Skier.cpp SkiLift.cpp functions.cpp SlopesStats.cpp)
+then
+{
+	./a.out
+}
+fi

@@ -1,0 +1,118 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area6#area9#area10#page24" name="Company page" gr:x="0" gr:y="0">
+  <ContentUnits>
+    <DataUnit id="sv1#area6#area9#area10#page24#dau17" name="Company detail" gr:x="0" gr:y="0" entity="ent1">
+      <Selector id="sv1#area6#area9#area10#page24#dau17#su29" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#area9#area10#page24#dau17#su29#kcond29" name="KeyCondition11" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv1#area6#area9#area10#page24#dau17#ln63" name="Flow22" to="sv1#area6#area9#area10#page24#enu12" type="transport" automaticCoupling="true" validate="true"/>
+    </DataUnit>
+    <EntryUnit id="sv1#area6#area9#area10#page24#enu12" name="Edit Company" linkOrder="sv1#area6#area9#area10#page24#enu12#ln64" gr:showAllParts="true" gr:x="0" gr:y="130" entity="ent1" fieldOrder="sv1#area6#area9#area10#page24#enu12#fld4 sv1#area6#area9#area10#page24#enu12#fld3">
+      <Link id="sv1#area6#area9#area10#page24#enu12#ln64" name="Flow23" to="sv1#area6#area9#area10#mfu6" type="normal" automaticCoupling="true" validate="true" gr:bendpoints="66,-17,-74,-17"/>
+      <Field id="sv1#area6#area9#area10#page24#enu12#fld3" name="Address" type="string" modifiable="true"/>
+      <Field id="sv1#area6#area9#area10#page24#enu12#fld4" name="Name" type="string" modifiable="true"/>
+    </EntryUnit>
+    <PowerIndexUnit id="sv1#area6#area9#area10#page24#pwu23" name="Company Users list" linkOrder="sv1#area6#area9#area10#page24#pwu23#ln65 sv1#area6#area9#area10#page24#pwu23#ln66" gr:x="360" gr:y="0" sortable="true" checkable="false" useCountQuery="false" entity="ent2">
+      <Link id="sv1#area6#area9#area10#page24#pwu23#ln65" name="Flow24" to="sv1#area6#area9#area10#page24#dau18" type="normal" automaticCoupling="true" validate="true"/>
+      <Link id="sv1#area6#area9#area10#page24#pwu23#ln66" name="Flow25" to="sv1#area6#area9#area10#page24#enu13" type="normal" automaticCoupling="true" validate="true"/>
+    </PowerIndexUnit>
+    <DataUnit id="sv1#area6#area9#area10#page24#dau18" name="User detail" gr:x="250" gr:y="0" entity="ent2">
+      <Selector id="sv1#area6#area9#area10#page24#dau18#su30" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#area9#area10#page24#dau18#su30#kcond30" name="KeyCondition13" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+    <EntryUnit id="sv1#area6#area9#area10#page24#enu13" name="New Company User" linkOrder="sv1#area6#area9#area10#page24#enu13#ln67" gr:x="360" gr:y="155" entity="ent2">
+      <Link id="sv1#area6#area9#area10#page24#enu13#ln67" name="Flow26" to="sv1#area6#area9#area10#cru8" type="normal" automaticCoupling="true" validate="true" gr:bendpoints="-76,-14,54,-14"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#area9#area10#page24#dau17"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#area9#area10#page24#enu12">
+          <layout:Link link="sv1#area6#area9#area10#page24#enu12#ln64"/>
+          <layout:Field field="sv1#area6#area9#area10#page24#enu12#fld4"/>
+          <layout:Field field="sv1#area6#area9#area10#page24#enu12#fld3"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#area9#area10#page24#pwu23">
+          <layout:Link link="sv1#area6#area9#area10#page24#pwu23#ln65"/>
+          <layout:Link link="sv1#area6#area9#area10#page24#pwu23#ln66"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#area9#area10#page24#dau18"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#area9#area10#page24#enu13">
+          <layout:Link link="sv1#area6#area9#area10#page24#enu13#ln67"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

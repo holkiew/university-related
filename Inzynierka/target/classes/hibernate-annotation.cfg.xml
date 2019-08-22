@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection properties - Driver, URL, user, password -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/db</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.generate_statistics">false</property>
+        <property name="hibernate">false</property>
+        <!-- org.hibernate.HibernateException: No CurrentSessionContext configured! -->
+        <property name="hibernate.current_session_context_class">thread</property>
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">true</property>
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hbm2ddl.auto">create-drop</property>
+
+        <!-- Mapping with model class containing annotations -->
+        <mapping class="application.database.entities.AccountStatusEntity"/>
+        <mapping class="application.database.entities.AccountTypeEntity"/>
+        <mapping class="application.database.entities.AuctionEntity"/>
+        <mapping class="application.database.entities.AuctionDataEntity"/>
+        <mapping class="application.database.entities.AccountTemporaryDataEntity"/>
+        <mapping class="application.database.entities.AuctionCommodityPropertiesEntity"/>
+        <mapping class="application.database.entities.BidsEntity"/>
+        <mapping class="application.database.entities.CategoryEntity"/>
+        <mapping class="application.database.entities.CompanyEntity"/>
+        <mapping class="application.database.entities.CompanyDataEntity"/>
+        <mapping class="application.database.entities.ImageEntity"/>
+        <mapping class="application.database.entities.LanguageEntity"/>
+        <mapping class="application.database.entities.LocationToEntity"/>
+        <mapping class="application.database.entities.LocationFromEntity"/>
+        <mapping class="application.database.entities.StatusTypeEntity"/>
+        <mapping class="application.database.entities.TokenAccessEntity"/>
+        <mapping class="application.database.entities.TokenRefreshEntity"/>
+        <mapping class="application.database.entities.UserEntity"/>
+        <mapping class="application.database.entities.UserDataEntity"/>
+    </session-factory>
+</hibernate-configuration>
+<!--<property name="hibernate.connection.username">root</property>-->
+<!--<property name="hibernate.connection.password">root</property>-->

@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+
+\bibitem{intelliJ}
+Oficjalna strona oprogramowania intellij.
+\newblock \url{https://www.jetbrains.com/idea/}.
+\newblock Data ostatniej wizyty: 2016-10-01.
+
+\bibitem{owaspAntiSammyProject}
+Oficjalna strona projektu owasp antisammy project.
+\newblock
+  \url{https://www.owasp.org/index.php/Category:OWASP_AntiSamy_Project#tab=Main}.
+\newblock Data ostatniej wizyty: 2016-12-20.
+
+\bibitem{maven}
+Oficjalna strona systemu budowania projektu apache maven.
+\newblock \url{https://maven.apache.org/}.
+\newblock Data ostatniej wizyty: 2016-12-02.
+
+\bibitem{bitbucket}
+Oficjalna strona systemu wersjonowania bitbucket.
+\newblock \url{https://bitbucket.org/}.
+\newblock Data ostatniej wizyty: 2016-10-01.
+
+\bibitem{bootstrap}
+Oficjalna strona szablonów bootstrap.
+\newblock \url{http://getbootstrap.com/}.
+\newblock Data ostatniej wizyty: 2016-12-02.
+
+\bibitem{spring}
+Oficjalna strona \textit{frameworku} spring na której można znaleźć
+  informacje oraz dokumentacje wszystkich technologii wchodzących w ten
+  pakiet.
+\newblock \url{https://spring.io/}.
+\newblock Data ostatniej wizyty: 2017-01-01.
+
+\bibitem{ioc}
+Oficjalna strona \textit{frameworku} spring zawierająca informacje na temat
+  cyklu życia implementacji kontenera \textit{IoC}.
+\newblock
+  \url{https://docs.spring.io/spring/docs/current/spring-framework-reference/html/beans.html}.
+\newblock Data ostatniej wizyty: 2016-11-20.
+
+\bibitem{mysql}
+Oficjalna strona z dokumentacją bazy danych mysql.
+\newblock \url{https://dev.mysql.com/doc/}.
+\newblock Data ostatniej wizyty: 2016-12-08.
+
+\bibitem{angular2}
+Oficjalna strona z dokumentacją technologii angular2 przy użyciu języka
+  typescript.
+\newblock \url{https://angular.io/docs/ts/latest/}.
+\newblock Data ostatniej wizyty: 2016-12-02.
+
+\bibitem{java8}
+Oficjalna strona z dokumentacją technologii java w wersji 8.
+\newblock \url{https://docs.oracle.com/javase/8/docs/}.
+\newblock Data ostatniej wizyty: 2017-01-29.
+
+\bibitem{hibernate}
+Oficjalna strona z dokumentacją \textit{frameworku} hibernate.
+\newblock \url{http://hibernate.org/orm/documentation/}.
+\newblock Data ostatniej wizyty: 2016-12-02.
+
+\bibitem{googleTrends}
+Strona internetowa portalu google trends.
+\newblock \url{https://www.google.com/trends/explore?q=uship}.
+\newblock Data ostatniej wizyty: 2016-11-17.
+
+\bibitem{oferteo}
+Strona internetowa portalu oferteo.
+\newblock \url{http://www.oferteo.pl/transport}.
+\newblock Data ostatniej wizyty: 2016-11-17.
+
+\bibitem{uship}
+Strona internetowa portalu uship.
+\newblock \url{http://www.uship.com/find}.
+\newblock Data ostatniej wizyty: 2016-11-16.
+
+\bibitem{mvc}
+Strona na portalu wikipedia z podstawowymi informacjami użytego w projekcie
+  systemu modelu mvc.
+\newblock \url{https://pl.wikipedia.org/wiki/Model-View-Controller}.
+\newblock Data ostatniej wizyty: 2016-10-01.
+
+\end{thebibliography}

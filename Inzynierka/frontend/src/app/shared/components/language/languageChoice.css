@@ -1,0 +1,25 @@
+div.container.languages {
+    text-align: right;
+    float: right;
+    width: 100px;
+}
+
+.image {
+    height: 18px;
+    width: 23px;
+    border: 1px solid lightgray;
+    margin: 1px;
+}
+
+.image:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.image:active {
+    moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    border: 1px solid black;
+}

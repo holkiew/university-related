@@ -1,0 +1,62 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area6#area7#page6" name="Company detail" gr:x="490" gr:y="305">
+  <ContentUnits>
+    <PowerIndexUnit id="sv1#area6#area7#page6#pwu14" name="Company Users list" linkOrder="sv1#area6#area7#page6#pwu14#ln14" gr:x="0" gr:y="5" sortable="true" checkable="false" useCountQuery="false" entity="ent2">
+      <Link id="sv1#area6#area7#page6#pwu14#ln14" to="sv1#area6#area7#page8" type="normal" automaticCoupling="true" validate="true"/>
+    </PowerIndexUnit>
+    <DataUnit id="sv1#area6#area7#page6#dau10" name="Company details" gr:x="140" gr:y="0" entity="ent1">
+      <Selector id="sv1#area6#area7#page6#dau10#su17" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#area7#page6#dau10#su17#kcond17" name="KeyCondition1" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#area7#page6#pwu14">
+          <layout:Link link="sv1#area6#area7#page6#pwu14#ln14"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#area7#page6#dau10"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

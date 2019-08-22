@@ -1,0 +1,13 @@
+!!!Where to improve!!!
+
+Self defined Indicators
+
+Creating an indicator is easy (and even plotting them is easy)
+
+Sizers
+
+Money Management is for many the key to success
+
+Order Types (limit, stop, stoplimit)
+
+Some others

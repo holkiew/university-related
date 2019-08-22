@@ -1,0 +1,127 @@
+<div *ngIf="logged == true" class="container">
+    <div class="title">
+        Create new auction for given user
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+            <label for="title">Title</label>
+            <input [(ngModel)]="title" id="title"
+                   type="text" class="validate">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s12">
+            <label for="unloadTime">End of auction</label>
+            <input [(ngModel)]="endOfAuction" id="unloadTime"
+                   type="datetime-local" class="validate">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s12">
+            <label for="loadTime">Load commodity</label>
+            <input [(ngModel)]="loadingDate" id="loadTime"
+                   type="datetime-local" class="validate">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s12">
+            <label for="unloadTime">Location from</label>
+            <input [(ngModel)]="locationFrom" id="locationFrom"
+                   type="text" class="validate">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s12">
+            <label for="endOfAuction">Delivery time</label>
+            <input [(ngModel)]="deliveryDate" id="endOfAuction"
+                   type="datetime-local" class="validate">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s12">
+            <label for="locationTo">Location to</label>
+            <input [(ngModel)]="locationTo" id="locationTo"
+                   type="text" class="validate">
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="input-field col s12">
+            <label for="sizeX">Size X</label>
+            <input [(ngModel)]="length" id="sizeX"
+                   type="text" class="validate">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s12">
+            <label for="sizeY">Size Y</label>
+            <input [(ngModel)]="width" id="sizeY"
+                   type="text" class="validate">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s12">
+            <label for="sizeZ">Size Z</label>
+            <input [(ngModel)]="height" id="sizeZ"
+                   type="text" class="validate">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s12">
+            <label for="sizeZ">Weight</label>
+            <input [(ngModel)]="weight" id="weight"
+                   type="text" class="validate">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="input-field col s12">
+            <label for="fragile">Fragile</label>
+            <input [(ngModel)]="isFragile" id="fragile"
+                   type="checkbox" class="validate">
+        </div>
+        <div class="input-field col s12">
+            <label for="living">Living</label>
+            <input [(ngModel)]="isLiving" id="living"
+                   type="checkbox" class="validate">
+        </div>
+        <div class="input-field col s12">
+            <label for="specialEnvironment">Special environment</label>
+            <input [(ngModel)]="isSpecialEnvironment" id="specialEnvironment"
+                   type="checkbox" class="validate">
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s12">
+            <label for="description">Description</label>
+            <textarea [(ngModel)]="description" class="form-control" rows="5" id="description"></textarea>
+        </div>
+    </div>
+
+    <button (click)="createNewAuction()"
+            class="btn waves-effect waves-light"
+            type="submit" name="action">Create auction
+    </button>
+
+    <span>{{errorMsg}}</span>
+    <div *ngIf="responseRead">
+        {{response}}
+        {{basicResponse.responseMessage}}
+    </div>
+
+    <as-direction-map></as-direction-map>
+
+</div>
+
+<div *ngIf="logged == false" class="container">
+    log in
+</div>

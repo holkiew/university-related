@@ -1,0 +1,39 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces uShip - widok dost\IeC {\k e}pnych aukcji}}{6}{figure.caption.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces uShip - statystyki zapyta\IeC {\'n} o stron\IeC {\k e} w serwisie GoogleTrends}}{7}{figure.caption.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Oferteo - widok dost\IeC {\k e}pnych kategorii}}{8}{figure.caption.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Oferteo - widok dost\IeC {\k e}pnych aukcji}}{8}{figure.caption.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Architektura systemu}}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagram klas}}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {7}{\ignorespaces Diagram zwi\IeC {\k a}zk\IeC {\'o}w encji}}{16}{figure.caption.15}
+\contentsline {figure}{\numberline {8}{\ignorespaces Diagram przypadk\IeC {\'o}w u\IeC {\.z}ycia - u\IeC {\.z}ytkownik aplikacji}}{17}{figure.caption.16}
+\contentsline {figure}{\numberline {9}{\ignorespaces Diagram przypadk\IeC {\'o}w u\IeC {\.z}ycia - moderator aplikacji}}{20}{figure.caption.18}
+\contentsline {figure}{\numberline {10}{\ignorespaces Diagram aktywno\IeC {\'s}ci - wycofanie aukcji}}{22}{figure.caption.20}
+\contentsline {figure}{\numberline {11}{\ignorespaces Diagram aktywno\IeC {\'s}ci - wystawienie aukcji}}{22}{figure.caption.21}
+\contentsline {figure}{\numberline {12}{\ignorespaces Diagram aktywno\IeC {\'s}ci - rejestracja konta}}{23}{figure.caption.22}
+\contentsline {figure}{\numberline {13}{\ignorespaces Diagram sekwencji - logowanie}}{24}{figure.caption.23}
+\contentsline {figure}{\numberline {14}{\ignorespaces Diagram sekwencji - rejestracja u\IeC {\.z}ytkownika}}{25}{figure.caption.25}
+\contentsline {figure}{\numberline {15}{\ignorespaces Diagram sekwencji - anulowanie aukcji}}{26}{figure.caption.27}
+\contentsline {figure}{\numberline {16}{\ignorespaces Mapa \textit {endpoint\IeC {\'o}w} aplikacji klienckiej}}{30}{figure.caption.33}
+\contentsline {figure}{\numberline {17}{\ignorespaces Szkice aplikacji - logowanie u\IeC {\.z}ytkownika}}{31}{figure.caption.35}
+\contentsline {figure}{\numberline {18}{\ignorespaces Szkice aplikacji - wyszukiwanie aukcji}}{32}{figure.caption.38}
+\contentsline {figure}{\numberline {19}{\ignorespaces Szkice aplikacji - rejestracja nowego u\IeC {\.z}ytkownika}}{33}{figure.caption.41}
+\contentsline {figure}{\numberline {20}{\ignorespaces Szkice aplikacji - panel u\IeC {\.z}ytkownika}}{34}{figure.caption.44}
+\contentsline {figure}{\numberline {21}{\ignorespaces Szkice aplikacji - aukcja}}{35}{figure.caption.47}
+\contentsline {figure}{\numberline {22}{\ignorespaces Szkice aplikacji - stw\IeC {\'o}rz now\IeC {\k a} aukcj\IeC {\k e}}}{36}{figure.caption.50}
+\contentsline {figure}{\numberline {23}{\ignorespaces Szkice aplikacji - aktywacja konta}}{37}{figure.caption.53}
+\contentsline {figure}{\numberline {24}{\ignorespaces Szkice aplikacji - wsp\IeC {\'o}lne elementy}}{38}{figure.caption.56}
+\contentsline {figure}{\numberline {25}{\ignorespaces Implementacja bazy danych - por\IeC {\'o}wnanie widoku bazy Java - SQL}}{39}{figure.caption.59}
+\contentsline {figure}{\numberline {26}{\ignorespaces Implementacja bazy danych - por\IeC {\'o}wnanie widoku encji Java - SQL}}{41}{figure.caption.60}
+\contentsline {figure}{\numberline {27}{\ignorespaces Implementacja serwera - struktura projektu}}{44}{figure.caption.63}
+\contentsline {figure}{\numberline {28}{\ignorespaces Implementacja serwera - przyk\IeC {\l }adowy e-mail}}{54}{figure.caption.71}
+\contentsline {figure}{\numberline {29}{\ignorespaces Wyci\IeC {\k a}g z konsoli po uruchomieniu serwera}}{58}{figure.caption.76}
+\contentsline {figure}{\numberline {30}{\ignorespaces Implementacja aplikacji klienckiej - struktura projektu}}{59}{figure.caption.77}
+\contentsline {figure}{\numberline {31}{\ignorespaces Implementacja aplikacji klienckiej - przyk\IeC {\l }adowe zapytanie \textit {HTTP}}}{61}{figure.caption.79}
+\contentsline {figure}{\numberline {32}{\ignorespaces Wyci\IeC {\k a}g z konsoli po uruchomienia aplikacji klienckiej}}{72}{figure.caption.91}
+\contentsline {figure}{\numberline {33}{\ignorespaces U\IeC {\.z}ytkowanie aplikacji - logowanie}}{73}{figure.caption.92}
+\contentsline {figure}{\numberline {34}{\ignorespaces U\IeC {\.z}ytkowanie aplikacji - wylogowanie}}{74}{figure.caption.93}
+\contentsline {figure}{\numberline {35}{\ignorespaces U\IeC {\.z}ytkowanie aplikacji - stworzenie nowej aukcji}}{75}{figure.caption.94}
+\contentsline {figure}{\numberline {36}{\ignorespaces U\IeC {\.z}ytkowanie aplikacji - stworzenie nowego u\IeC {\.z}ytkownika}}{76}{figure.caption.95}
+\contentsline {figure}{\numberline {37}{\ignorespaces U\IeC {\.z}ytkowanie aplikacji - aktywacja nowego u\IeC {\.z}ytkownika}}{76}{figure.caption.96}
+\contentsline {figure}{\numberline {38}{\ignorespaces U\IeC {\.z}ytkowanie aplikacji - wy\IeC {\'s}wietlanie aukcji}}{77}{figure.caption.97}
+\contentsline {figure}{\numberline {39}{\ignorespaces U\IeC {\.z}ytkowanie aplikacji - wy\IeC {\'s}wietlenie konkretnej aukcji}}{77}{figure.caption.98}

@@ -1,0 +1,26 @@
+\BOOKMARK [1][-]{section.1}{Analiza istniejacych rozwiazan}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Opis istniejacych rozwiazan}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Analiza istniejacych rozwiazan}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Co ulepszyc, wlasne przemyslena??}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Analiza biznesowa}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Grupy uzytkownik\363w i za\233ozenia}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{SWOT}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{Analiza wymagan}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Wymagania funkcjonalne}{subsection.2.3}% 9
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Wymagania niefunkcjonalne}{subsection.2.3}% 10
+\BOOKMARK [4][-]{subsubsubsection.2.3.2.1}{Wykorzystane technologie i narzedzia}{subsubsection.2.3.2}% 11
+\BOOKMARK [4][-]{subsubsubsection.2.3.2.2}{Wymagania dotyczace rozmiaru bazy danych}{subsubsection.2.3.2}% 12
+\BOOKMARK [4][-]{subsubsubsection.2.3.2.3}{Wymagania dotyczace bezpieczenstwa systemu}{subsubsection.2.3.2}% 13
+\BOOKMARK [1][-]{section.3}{Projekt systemu}{}% 14
+\BOOKMARK [2][-]{subsection.3.1}{Wykorzystane technologie}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.2}{Przypadki uzycia i scenariusze}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.3}{Diagramy aktywnosci}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.4}{Diagramy sekwencji}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.5}{Diagramy stanu}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.6}{Diagramy przep\233ywu}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.7}{Projekt bazy danych}{section.3}% 21
+\BOOKMARK [1][-]{section.4}{Implementacja systemu}{}% 22
+\BOOKMARK [2][-]{subsection.4.1}{Opis kod\363w zr\363d\233owych}{section.4}% 23
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Back-end}{subsection.4.1}% 24
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Front-end}{subsection.4.1}% 25
+\BOOKMARK [1][-]{section.5}{Instalacja i wdrozenie}{}% 26

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - db@127.0.0.1" uuid="9dc91e0f-327d-43c3-aa70-9b10cb8dabfd">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>db.*</schema-pattern>
+      <default-schemas>db.*</default-schemas>
+    </data-source>
+    <data-source name="hibernate-annotation.cfg.xml/Hibernate" uuid="01482b08-f543-4c5d-9f4e-4bab04fbc034">
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+      <user-password>dfc0dfcedfc8dfc9df90dfc7dfd3dfd9dfdbdfc6df90df85df85df9bdf98df9ddf84df9adf84df9adf84df9bdf90df99df99df9adf9cdf85dfcedfc8</user-password>
+    </data-source>
+  </component>
+</project>

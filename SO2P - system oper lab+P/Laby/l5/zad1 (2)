@@ -1,0 +1,33 @@
+#!/bin/sh
+
+#W pliku zrodlowym jezyka C "usunac" linie puste lub skladajace sie z samych bialych znakow (spacje, tabulatory). "Zamienic" wszystkie wystapienia "float" na "double". Wypisac liczbe usuniec i podmian. AWK+ CAT
+
+if [ $# -eq 0 ]
+then
+	echo "Brak argumentow"
+	exit $1
+fi
+
+
+if [ ! -f $1 ]
+then
+	echo "$1 nie jest plikiem zwyklym"
+	exit 2
+fi
+
+cat $1 | awk 'BEGIN {licznikPodmian=0; licznikUsuniec=0;} 
+{
+	buffor=$0;
+	if(!gsub("[[:alpha:]]", "", buffor))
+	{
+		gsub("\\t+", "", $0);
+		gsub("\\s+", "", $0);
+	}
+	licznikPodmian+=gsub(/float/, "double", $0);
+	if($0!="")
+		print $0;
+	else
+		licznikUsuniec++;
+	
+} 
+END {print "ilosc podmian: " licznikPodmian "\nilosc usuniec: " licznikUsuniec;}' 

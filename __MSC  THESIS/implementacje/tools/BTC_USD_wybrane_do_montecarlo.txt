@@ -1,0 +1,20 @@
+Value : 14312314.12 | OrderedDict([('smaS_period', 50), ('smaL_period', 200), ('rsi_period', 21), ('rsi_top', 85), ('rsi_bot', 20), ('printlog', False), ('printstop', False), ('value', 14312314.115857854)])
+Value : 7725120.89 | OrderedDict([('smaS_period', 100), ('smaL_period', 200), ('rsi_period', 14), ('rsi_top', 80), ('rsi_bot', 30), ('printlog', False), ('printstop', False), ('value', 7725120.89288724)])
+Value : 5045886.17 | OrderedDict([('smaS_period', 100), ('smaL_period', 200), ('rsi_period', 14), ('rsi_top', 85), ('rsi_bot', 30), ('printlog', False), ('printstop', False), ('value', 5045886.168813845)])
+Value : 3134623.27 | OrderedDict([('smaS_period', 50), ('smaL_period', 150), ('rsi_period', 14), ('rsi_top', 85), ('rsi_bot', 30), ('printlog', False), ('printstop', False), ('value', 3134623.2668127925)])
+Value : 1573061.67 | OrderedDict([('smaS_period', 125), ('smaL_period', 150), ('rsi_period', 14), ('rsi_top', 80), ('rsi_bot', 30), ('printlog', False), ('printstop', False), ('value', 1573061.6654024227)])
+Value : 763229.17 | OrderedDict([('smaS_period', 100), ('smaL_period', 150), ('rsi_period', 14), ('rsi_top', 70), ('rsi_bot', 30), ('printlog', False), ('printstop', False), ('value', 763229.1733541561)])
+Value : 231662.40 | OrderedDict([('smaS_period', 25), ('smaL_period', 50), ('rsi_period', 14), ('rsi_top', 85), ('rsi_bot', 30), ('printlog', False), ('printstop', False), ('value', 231662.39844863757)])
+Value : 134051.07 | OrderedDict([('smaS_period', 50), ('smaL_period', 150), ('rsi_period', 21), ('rsi_top', 70), ('rsi_bot', 20), ('printlog', False), ('printstop', False), ('value', 134051.0670153922)])
+Value : 90251.15 | OrderedDict([('smaS_period', 125), ('smaL_period', 150), ('rsi_period', 14), ('rsi_top', 80), ('rsi_bot', 15), ('printlog', False), ('printstop', False), ('value', 90251.14937948089)])
+Value : 19721.59 | OrderedDict([('smaS_period', 50), ('smaL_period', 100), ('rsi_period', 21), ('rsi_top', 70), ('rsi_bot', 15), ('printlog', False), ('printstop', False), ('value', 19721.587875374415)])
+
+        [50,200,21,85,20,0,0,0],
+        [100,200,14,80,30,0,0,0],
+        [100,200,14,85,30,0,0,0],
+        [50,150,14,85,30,0,0,0],
+        [125,150,14,80,30,0,0,0],
+        [100,150,14,70,30,0,0,0],
+        [50,150,21,70,20,0,0,0],
+        [125,150,14,80,15,0,0,0],
+        [50,100,21,70,15,0,0,0]

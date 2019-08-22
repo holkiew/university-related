@@ -1,0 +1,5 @@
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="ECMA-website" landmarks="sv1#area6" homePage="sv1#page14">
+  <OperationUnits>
+    <LoginUnit gr:x="765" gr:y="80" id="sv1#lgu1" name="Login"/>
+  </OperationUnits>
+</SiteView>

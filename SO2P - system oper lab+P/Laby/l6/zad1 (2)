@@ -1,0 +1,41 @@
+#!/bin/sh
+
+#W zadaym pliku tekstowym "przeksztalcic" adresy domenowe na forme z uzyciem adresu IP np. www.onet.pl => 213.180.141.140
+
+if [ $# -eq 0 ]
+then
+	echo "Brak argumentow"
+	exit $1
+fi
+
+
+if [ ! -f $1 ]
+then
+	echo "$1 nie jest plikiem zwyklym"
+	exit 2
+fi
+
+cat $1 | awk ' BEGIN{ValidHostnameRegex = "([w]{0,3}\.[A-Za-z]{2,}\.[0-9A-Za-z]+)$";
+		regex="[w]{0,3}\.[a-zA-Z0-9-]{1,61}[a-zA-Z0-9]\.[a-zA-Z]{2,}$"}
+{
+	
+	iloscWyrazow=split($0 , wyrazy , "[[:space:]]");
+	
+	for(i=0; i<iloscWyrazow;i++)
+	{
+		if(match( wyrazy[i+1], regex, tab))
+		{
+			dom=wyrazy[i+1];
+			"host " dom | getline dom;
+			split(dom, tabh," ");
+			ip=tabh[4];
+			gsub(wyrazy[i+1], ip, $0);
+		}
+		
+	}
+	print $0;
+		
+} 
+END {}'
+
+

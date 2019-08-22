@@ -1,0 +1,48 @@
+#!/usr/bin/perl -w 
+
+#W zadanych 2 katalogach znalezc:	(jeden find, 2 katalogi)
+#a)linki symboliczne wskazujace na pliki zwykle,
+#b)katalogi, do ktorych ICH WLASCICIEL ma prawo zapisu,
+#c)pliki zwykle o rozmiarze <100B, do ktorych MY mamy prawo zapisu.
+
+if( @ARGV > 2)
+{
+	print " za duzo argumentow\n";
+	exit 1;
+}
+
+if(! -d $ARGV[0] || ! -d $ARGV[1])
+{
+	print "Parametr nie jest katalogiem\n";
+	exit 1;
+}
+
+use File::Find;
+
+
+find(\&wyszukanie, @ARGV);
+
+
+sub wyszukanie{
+	if( -l $_ )
+	{
+		if( -f readlink($_) )
+		{
+			print "link '$_ wskazuje' na plik zwykly\n";
+		}	 	
+	}
+	if( -d $_ )
+	{
+		$mode = (stat(_))[2] & 0200;
+		if( $mode > 0  )
+		{
+			print "katalog '$_' do ktorego wlasciciel ma prawo zapisu\n";
+		}
+		
+	}
+	if( -f -w _ && -s _ < 100)
+	{
+		print "plik '$_' <100B do ktorego my mamy prawo zapisu\n";
+	}
+
+}

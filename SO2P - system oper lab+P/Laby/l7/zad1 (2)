@@ -1,0 +1,59 @@
+#!/usr/bin/perl
+
+#Wypisac czy w danych katalogu (parametr  skryptu) jest wiecej linkow symbolicznych poprawnych czy zdefinowanych sciezka wzgledna.
+
+if( @ARGV > 1)
+{
+	print " za duzo argumentow\n";
+	exit 1;
+}
+
+if(! -d $ARGV[0])
+{
+	print "Parametr nie jest katalogiem\n";
+	exit 1;
+}
+
+
+
+
+$dir = $ARGV[0];
+$symbolicLinks=0;
+$apl=0;
+opendir(DIR, $dir) or die "Nie mozna otworzyc";
+
+while (readdir(DIR)) 
+{
+	$path= "$dir/$_";
+	if( -l $path )
+	{
+		if(-e $path)
+		{
+			$symbolicLinks++;
+		}
+		$checkSlash = substr $path, 0 , 1;
+		if( $checkSlashttp://www.perlhowto.com/check_the_number_of_arguments_passed_to_a_scripth ne "/")
+		{
+			$apl++;
+		}
+		
+	}
+}
+
+if( $apl > $symbolicLinks)
+{
+	print "wiecej jest sciezek wzglednych\n";
+}
+elsif ($apl < $symbolicLinks)
+{
+	print "wiecej jest linkow \n";
+}
+else
+{
+	print "linkow jest tyle samo co sciezekj wzglednych\n";
+}
+ 
+closedir(DIR);
+exit 0; 
+
+

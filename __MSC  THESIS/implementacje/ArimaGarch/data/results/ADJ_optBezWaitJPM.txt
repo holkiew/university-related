@@ -1,0 +1,9 @@
+Value : 21385.10 | OrderedDict([('rsi_period', 18), ('boll_period', 30), ('boll_devf', 12), ('rsi_bot', 40), ('lreg_period', 12), ('printlog', False), ('value', 21385.10086370593)])
+Value : 20089.91 | OrderedDict([('rsi_period', 18), ('boll_period', 30), ('boll_devf', 10), ('rsi_bot', 40), ('lreg_period', 12), ('printlog', False), ('value', 20089.911871065233)])
+Value : 18893.75 | OrderedDict([('rsi_period', 15), ('boll_period', 30), ('boll_devf', 12), ('rsi_bot', 40), ('lreg_period', 12), ('printlog', False), ('value', 18893.754093279927)])
+Value : 17762.80 | OrderedDict([('rsi_period', 15), ('boll_period', 30), ('boll_devf', 10), ('rsi_bot', 40), ('lreg_period', 12), ('printlog', False), ('value', 17762.79635940406)])
+Value : 15136.45 | OrderedDict([('rsi_period', 18), ('boll_period', 30), ('boll_devf', 12), ('rsi_bot', 40), ('lreg_period', 30), ('printlog', False), ('value', 15136.452059265841)])
+Value : 14141.95 | OrderedDict([('rsi_period', 18), ('boll_period', 30), ('boll_devf', 10), ('rsi_bot', 40), ('lreg_period', 30), ('printlog', False), ('value', 14141.951600840272)])
+Value : 13414.57 | OrderedDict([('rsi_period', 15), ('boll_period', 30), ('boll_devf', 12), ('rsi_bot', 40), ('lreg_period', 30), ('printlog', False), ('value', 13414.568802411852)])
+Value : 13296.81 | OrderedDict([('rsi_period', 15), ('boll_period', 30), ('boll_devf', 10), ('rsi_bot', 40), ('lreg_period', 30), ('printlog', False), ('value', 13296.811656255808)])
+Average: 16765.168413278618

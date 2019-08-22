@@ -1,0 +1,62 @@
+#!/usr/bin/perl -w 
+
+#w zadanym pliku tesktowym "zamienic" wszystkie poprawne czasy w formacie 24-godzinnym HH:MM:SS na format 12-godzinny [H]H/[m]m/[s]s AM/PM. [x] oznacza cyfre, tylko jesli jest rozna od zera
+
+if( @ARGV > 1)
+{
+	print " za duzo argumentow\n";
+	exit 1;
+}
+
+if(! -f $ARGV[0])
+{
+	print "Parametr nie jest katalogiem\n";
+	exit 1;
+}
+
+$file = $ARGV[0];
+open $info, $file || die "Nie można otwprzyć pliku $!";
+$regex1 ="[0-2]{0,1}[0-3]{1}:[0-5]{1}[0-9]{1}:[0-5]{1}[0-9]{1}";
+while($row = <$info>) 
+{   
+	
+   #$matchCount = $row =~s/$regex1/XXXX/g;
+	($extracted) = $row =~ m/$regex1/g;
+	if($extracted)
+	{
+		@data = split(':', $extracted);
+		if($data[0] < 12)
+		{
+			foreach $n (@data)
+			{
+				$firstSign= substr $n,0,1;
+				if($firstSign == 0)
+				{
+					$n=substr $n,1,1;
+				}		
+			}
+			$hour = "$data[0]/$data[1]/$data[2] AM";
+			$row =~ s/$regex1/$hour/g;	
+		}
+		elsif($data[0] >= 13)
+		{
+			foreach $n (@data)
+			{
+				$firstSign= substr $n,0,1;
+				if($firstSign == 0)
+				{
+					$n=substr $n,1,1;
+				}
+					
+			}
+			$data[0] -=12;
+			$hour = "$data[0]/$data[1]/$data[2] PM";
+			$row =~ s/$regex1/$hour/g;
+		}
+	}
+	print $row;
+	
+}
+
+
+

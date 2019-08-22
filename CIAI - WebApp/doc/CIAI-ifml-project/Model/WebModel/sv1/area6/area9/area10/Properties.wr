@@ -1,0 +1,15 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="0" gr:y="0" id="sv1#area6#area9#area10" name="PARTNER USER area" landmark="true">
+  <OperationUnits>
+    <CreateUnit id="sv1#area6#area9#area10#cru8" name="Create User" gr:x="270" gr:y="190" entity="ent2">
+      <OKLink id="sv1#area6#area9#area10#cru8#oln17" name="OKFlow9" to="sv1#area6#area9#area10#page24#pwu23" automaticCoupling="true"/>
+      <KOLink id="sv1#area6#area9#area10#cru8#kln15" name="KOFlow5" to="sv1#area6#area9#area10#page24#enu13" automaticCoupling="true" gr:bendpoints="55,20,-75,20"/>
+    </CreateUnit>
+    <ModifyUnit id="sv1#area6#area9#area10#mfu6" name="Update Company" gr:x="145" gr:y="170" entity="ent1">
+      <Selector id="sv1#area6#area9#area10#mfu6#su31" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#area9#area10#mfu6#su31#kcond31" name="KeyCondition12" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv1#area6#area9#area10#mfu6#oln18" name="OKFlow7" to="sv1#area6#area9#area10#page24#dau17" automaticCoupling="true"/>
+      <KOLink id="sv1#area6#area9#area10#mfu6#kln16" name="KOFlow4" to="sv1#area6#area9#area10#page24#enu12" automaticCoupling="true" gr:bendpoints="-59,31,71,-4;-77,20,63,20"/>
+    </ModifyUnit>
+  </OperationUnits>
+</Area>

@@ -1,0 +1,38 @@
+CREATE TABLE Parking (
+  id               char(100) NOT NULL, 
+  name             nvarchar(255) NOT NULL, 
+  no_of_places     int NOT NULL, 
+  free_places      int NOT NULL, 
+  hour_cost        decimal(4,2) NOT NULL);
+CREATE TABLE Car (
+  id                    char(100) NOT NULL, 
+  car_log_id            char(100) NOT NULL, 
+  identyfication_number int NOT NULL, 
+  colour                nvarchar(255) NOT NULL, 
+  manufacturer          nvarchar(255) NOT NULL);
+CREATE TABLE Car_log (
+  id         char(100) NOT NULL, 
+  parking_id char(100) NOT NULL, 
+  entry_date datetime NOT NULL, 
+  exit_date  datetime NOT NULL);
+CREATE TABLE Parking_place (
+  id               char(100) NOT NULL, 
+  parking_level_id char(100) NOT NULL,
+  parking_type     char(100) NOT NULL, 
+  is_occupied      bit NOT NULL, 
+  code_name        nvarchar(255) NOT NULL);
+CREATE TABLE Parking_type (
+  id               char(100) NOT NULL, 
+  description      nvarchar(255) NOT NULL);
+CREATE TABLE Parking_level (
+  id                char(100) NOT NULL, 
+  parking_id        char(100) NOT NULL, 
+  total_places      int NOT NULL, 
+  total_free_places int NOT NULL, 
+  covered           bit NOT NULL);
+CREATE TABLE "Transaction" (
+  id         char(100) NOT NULL, 
+  car_log_id char(100) NOT NULL, 
+  cost       int NOT NULL, 
+  duration   int NOT NULL, 
+  code       nvarchar(255) NOT NULL);

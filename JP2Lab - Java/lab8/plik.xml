@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Tabela>
+    <Team druzyna="t1">
+        <b>51</b>
+        <bramki>bramki</bramki>
+        <m>11</m>
+        <p>33</p>
+        <pkt>1</pkt>
+        <ppd>44</ppd>
+        <z>22</z>
+    </Team>
+    <Team druzyna="druzyna">
+        <b>1</b>
+        <bramki>bramki</bramki>
+        <m>35</m>
+        <p>3</p>
+        <pkt>10</pkt>
+        <ppd>42</ppd>
+        <z>4</z>
+    </Team>
+    <Team druzyna="druzyna">
+        <b>31</b>
+        <bramki>bramki</bramki>
+        <m>5</m>
+        <p>33</p>
+        <pkt>11</pkt>
+        <ppd>2</ppd>
+        <z>24</z>
+    </Team>
+    <Team druzyna="druzyna">
+        <b>21</b>
+        <bramki>bramki</bramki>
+        <m>25</m>
+        <p>3</p>
+        <pkt>23</pkt>
+        <ppd>22</ppd>
+        <z>4</z>
+    </Team>
+    <Team druzyna="dsad">
+        <b>51</b>
+        <bramki>bramki</bramki>
+        <m>11</m>
+        <p>33</p>
+        <pkt>123</pkt>
+        <ppd>44</ppd>
+        <z>22</z>
+    </Team>
+</Tabela>
